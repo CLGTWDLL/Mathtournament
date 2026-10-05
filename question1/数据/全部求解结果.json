@@ -1,0 +1,248 @@
+{
+  "正交双点定位": {
+    "status": "有界多边形",
+    "vertices": [
+      [
+        -12.428034389191794,
+        12.001613302558837
+      ],
+      [
+        -12.008928817524065,
+        -12.008928817524065
+      ],
+      [
+        12.001613302558894,
+        -12.42803438919185
+      ],
+      [
+        12.43560982669942,
+        12.435609826699363
+      ]
+    ],
+    "diameter_m": 34.56979807661404,
+    "diameter_endpoints": [
+      [
+        -12.008928817524065,
+        -12.008928817524065
+      ],
+      [
+        12.43560982669942,
+        12.435609826699363
+      ]
+    ],
+    "enclosing_center": [
+      0.21334050458762022,
+      0.21334050458762022
+    ],
+    "enclosing_radius_m": 17.284899038307042,
+    "diameter_circle_covers": true,
+    "diameter_midpoint_max_distance_m": 17.284899038307042,
+    "feasible_point": [
+      12.001613302558894,
+      -12.42803438919185
+    ],
+    "recession_direction": null,
+    "numerical_tolerance_m": 4.949747468305834e-07
+  },
+  "多点递进定位": {
+    "status": "有界多边形",
+    "vertices": [
+      [
+        -7.396461353425138,
+        6.28421276199532
+      ],
+      [
+        -7.280004652857912,
+        -4.8361764553297775
+      ],
+      [
+        10.10577851908917,
+        -4.957554091024448
+      ],
+      [
+        -2.7428050456663584,
+        10.066888055164924
+      ]
+    ],
+    "diameter_m": 20.801579808579035,
+    "diameter_endpoints": [
+      [
+        -7.396461353425138,
+        6.28421276199532
+      ],
+      [
+        10.10577851908917,
+        -4.957554091024448
+      ]
+    ],
+    "enclosing_center": [
+      1.3546585828320303,
+      0.663329335485443
+    ],
+    "enclosing_radius_m": 10.400789904289525,
+    "diameter_circle_covers": true,
+    "diameter_midpoint_max_distance_m": 10.400789904289525,
+    "feasible_point": [
+      -7.280004652857912,
+      -4.8361764553297775
+    ],
+    "recession_direction": null,
+    "numerical_tolerance_m": 8.553142697278002e-07
+  },
+  "可实现的正三角形反例": {
+    "status": "有界多边形",
+    "vertices": [
+      [
+        -20.000000000000675,
+        -11.547005383792516
+      ],
+      [
+        20.000000000000203,
+        -11.547005383792516
+      ],
+      [
+        -2.196524678556726e-13,
+        23.09401076758577
+      ]
+    ],
+    "diameter_m": 40.000000000000874,
+    "diameter_endpoints": [
+      [
+        -20.000000000000675,
+        -11.547005383792516
+      ],
+      [
+        20.000000000000203,
+        -11.547005383792516
+      ]
+    ],
+    "enclosing_center": [
+      -2.371171972127654e-13,
+      2.434598677009765e-13
+    ],
+    "enclosing_radius_m": 23.094010767585534,
+    "diameter_circle_covers": false,
+    "diameter_midpoint_max_distance_m": 34.641016151378295,
+    "feasible_point": [
+      0.0,
+      -3.789561257387201e-14
+    ],
+    "recession_direction": null,
+    "numerical_tolerance_m": 1.020065357383209e-06
+  },
+  "两次测向四边形反例": {
+    "status": "有界多边形",
+    "vertices": [
+      [
+        482.54759356271643,
+        491.0439986703286
+      ],
+      [
+        500.0,
+        474.4822833574399
+      ],
+      [
+        517.4524064372836,
+        491.0439986703286
+      ],
+      [
+        500.0,
+        508.8036964860626
+      ]
+    ],
+    "diameter_m": 34.904812874567085,
+    "diameter_endpoints": [
+      [
+        482.54759356271643,
+        491.0439986703286
+      ],
+      [
+        517.4524064372836,
+        491.0439986703286
+      ]
+    ],
+    "enclosing_center": [
+      500.0,
+      491.34863155784495
+    ],
+    "enclosing_radius_m": 17.455064928217634,
+    "diameter_circle_covers": false,
+    "diameter_midpoint_max_distance_m": 17.759697815734,
+    "feasible_point": [
+      517.4524064372836,
+      491.0439986703286
+    ],
+    "recession_direction": null,
+    "numerical_tolerance_m": 5.000000000000001e-07
+  },
+  "同向观测无界": {
+    "status": "无界",
+    "vertices": [
+      [
+        -400.0,
+        0.0
+      ]
+    ],
+    "diameter_m": null,
+    "diameter_endpoints": null,
+    "enclosing_center": null,
+    "enclosing_radius_m": null,
+    "diameter_circle_covers": null,
+    "diameter_midpoint_max_distance_m": null,
+    "feasible_point": [
+      -400.0,
+      0.0
+    ],
+    "recession_direction": [
+      1.0,
+      0.0
+    ],
+    "numerical_tolerance_m": 2.0000000000000002e-07
+  },
+  "相背观测空集": {
+    "status": "空集",
+    "vertices": [],
+    "diameter_m": null,
+    "diameter_endpoints": null,
+    "enclosing_center": null,
+    "enclosing_radius_m": null,
+    "diameter_circle_covers": null,
+    "diameter_midpoint_max_distance_m": null,
+    "feasible_point": null,
+    "recession_direction": null,
+    "numerical_tolerance_m": 1e-09
+  },
+  "相向同点退化": {
+    "status": "点",
+    "vertices": [
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "diameter_m": 0.0,
+    "diameter_endpoints": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "enclosing_center": [
+      0.0,
+      0.0
+    ],
+    "enclosing_radius_m": 0.0,
+    "diameter_circle_covers": true,
+    "diameter_midpoint_max_distance_m": 0.0,
+    "feasible_point": [
+      0.0,
+      0.0
+    ],
+    "recession_direction": null,
+    "numerical_tolerance_m": 1e-09
+  }
+}

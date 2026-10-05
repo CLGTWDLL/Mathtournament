@@ -1,0 +1,4300 @@
+{
+  "summary": {
+    "arm": "light",
+    "seed": 1480031,
+    "distribution": "uniform",
+    "planner_seed": 9411,
+    "particles": 32,
+    "complete": true,
+    "policy_complete": true,
+    "truth_complete": true,
+    "strict_guarantee": true,
+    "probability_stopped_channels": 0,
+    "source_count": 16,
+    "cleared": 16,
+    "virtual_s": 3274.349136884667,
+    "move_m": 12846.745684423335,
+    "measurements": 103,
+    "switches": 98,
+    "clear_attempts": 20,
+    "absence_reason": {
+      "6": "sixteen_confirmed",
+      "12": "sixteen_confirmed",
+      "15": "sixteen_confirmed",
+      "16": "sixteen_confirmed"
+    },
+    "init_s": 0.0008504910001647659,
+    "init_cpu_s": 0.0008485280000058992,
+    "wall_s": 8.055611454999962,
+    "cpu_s": 8.055225028999985,
+    "log_entries": 123,
+    "error": null,
+    "joint_batches": 1,
+    "pruned_sites": 0,
+    "remaining_future_stations": 21,
+    "move_s": 2569.349136884667,
+    "measurement_s": 515,
+    "switch_s": 98,
+    "clear_s": 92,
+    "actions": 123,
+    "certificate_verified": true,
+    "audit_wall_s": 0.0026474149999557994,
+    "audit_cpu_s": 0.0026482060000034835,
+    "cpu_total_s": 8.057873234999988
+  },
+  "logs": [
+    {
+      "step": 1,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 216.81,
+        "virtual_time_s": 5.0
+      }
+    },
+    {
+      "step": 2,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 11.0
+      }
+    },
+    {
+      "step": 3,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 74.43,
+        "virtual_time_s": 17.0
+      }
+    },
+    {
+      "step": 4,
+      "action": "measure",
+      "channel": 4,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 23.0
+      }
+    },
+    {
+      "step": 5,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 29.0
+      }
+    },
+    {
+      "step": 6,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 35.0
+      }
+    },
+    {
+      "step": 7,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 200.35,
+        "virtual_time_s": 41.0
+      }
+    },
+    {
+      "step": 8,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 47.0
+      }
+    },
+    {
+      "step": 9,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 53.0
+      }
+    },
+    {
+      "step": 10,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 59.0
+      }
+    },
+    {
+      "step": 11,
+      "action": "measure",
+      "channel": 11,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 160.53,
+        "virtual_time_s": 65.0
+      }
+    },
+    {
+      "step": 12,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 71.0
+      }
+    },
+    {
+      "step": 13,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 246.61,
+        "virtual_time_s": 77.0
+      }
+    },
+    {
+      "step": 14,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 83.0
+      }
+    },
+    {
+      "step": 15,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 89.0
+      }
+    },
+    {
+      "step": 16,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 95.0
+      }
+    },
+    {
+      "step": 17,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 198.03,
+        "virtual_time_s": 101.0
+      }
+    },
+    {
+      "step": 18,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 107.0
+      }
+    },
+    {
+      "step": 19,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 301.1,
+        "virtual_time_s": 113.0
+      }
+    },
+    {
+      "step": 20,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 119.0
+      }
+    },
+    {
+      "step": 21,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 17986.75477400995,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          1,
+          3,
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 234.6607198663698
+      }
+    },
+    {
+      "step": 22,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 325.31,
+        "virtual_time_s": 240.6607198663698
+      }
+    },
+    {
+      "step": 23,
+      "action": "measure",
+      "channel": 4,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 300.68,
+        "virtual_time_s": 246.6607198663698
+      }
+    },
+    {
+      "step": 24,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 288.85,
+        "virtual_time_s": 252.6607198663698
+      }
+    },
+    {
+      "step": 25,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 258.6607198663698
+      }
+    },
+    {
+      "step": 26,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 264.6607198663698
+      }
+    },
+    {
+      "step": 27,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 270.6607198663698
+      }
+    },
+    {
+      "step": 28,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 276.6607198663698
+      }
+    },
+    {
+      "step": 29,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 282.6607198663698
+      }
+    },
+    {
+      "step": 30,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 288.6607198663698
+      }
+    },
+    {
+      "step": 31,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 294.6607198663698
+      }
+    },
+    {
+      "step": 32,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 300.6607198663698
+      }
+    },
+    {
+      "step": 33,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        160.903161,
+        -529.391203
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 306.6607198663698
+      }
+    },
+    {
+      "step": 34,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        224.100259,
+        -649.122137
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 156.03953576242836,
+      "dispatch_decision": {
+        "route_length_m": 18121.560756812287,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 9,
+        "selected_choice": 9,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 174,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 313.76,
+        "virtual_time_s": 339.7379204248721
+      }
+    },
+    {
+      "step": 35,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 18369.40224625498,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 410.46533427812346
+      }
+    },
+    {
+      "step": 36,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 416.46533427812346
+      }
+    },
+    {
+      "step": 37,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 422.46533427812346
+      }
+    },
+    {
+      "step": 38,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 428.46533427812346
+      }
+    },
+    {
+      "step": 39,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 434.46533427812346
+      }
+    },
+    {
+      "step": 40,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 440.46533427812346
+      }
+    },
+    {
+      "step": 41,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 446.46533427812346
+      }
+    },
+    {
+      "step": 42,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 452.46533427812346
+      }
+    },
+    {
+      "step": 43,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 458.46533427812346
+      }
+    },
+    {
+      "step": 44,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        546.574657,
+        -621.713831
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 464.46533427812346
+      }
+    },
+    {
+      "step": 45,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 18045.765176988723,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          11,
+          13,
+          17,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 581.396401577951
+      }
+    },
+    {
+      "step": 46,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 587.396401577951
+      }
+    },
+    {
+      "step": 47,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 593.396401577951
+      }
+    },
+    {
+      "step": 48,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 599.396401577951
+      }
+    },
+    {
+      "step": 49,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 37.45,
+        "virtual_time_s": 605.396401577951
+      }
+    },
+    {
+      "step": 50,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 611.396401577951
+      }
+    },
+    {
+      "step": 51,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 27.7,
+        "virtual_time_s": 617.396401577951
+      }
+    },
+    {
+      "step": 52,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 623.396401577951
+      }
+    },
+    {
+      "step": 53,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 629.396401577951
+      }
+    },
+    {
+      "step": 54,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        704.452929,
+        -84.788746
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 355.76,
+        "virtual_time_s": 635.396401577951
+      }
+    },
+    {
+      "step": 55,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 17686.478474773852,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 768.6450621661812
+      }
+    },
+    {
+      "step": 56,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 774.6450621661812
+      }
+    },
+    {
+      "step": 57,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 780.6450621661812
+      }
+    },
+    {
+      "step": 58,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 786.6450621661812
+      }
+    },
+    {
+      "step": 59,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 792.6450621661812
+      }
+    },
+    {
+      "step": 60,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 798.6450621661812
+      }
+    },
+    {
+      "step": 61,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        821.411853,
+        540.612046
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 134.55,
+        "virtual_time_s": 804.6450621661812
+      }
+    },
+    {
+      "step": 62,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        289.524302,
+        769.457692
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 17523.078181120763,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 926.4508818130254
+      }
+    },
+    {
+      "step": 63,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        289.524302,
+        769.457692
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 932.4508818130254
+      }
+    },
+    {
+      "step": 64,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        289.524302,
+        769.457692
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 938.4508818130254
+      }
+    },
+    {
+      "step": 65,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        289.524302,
+        769.457692
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 944.4508818130254
+      }
+    },
+    {
+      "step": 66,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        289.524302,
+        769.457692
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 950.4508818130254
+      }
+    },
+    {
+      "step": 67,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        289.524302,
+        769.457692
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 956.4508818130254
+      }
+    },
+    {
+      "step": 68,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        308.499468,
+        832.999652
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 213.23024070076997,
+      "dispatch_decision": {
+        "route_length_m": 16944.049082886544,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 162,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 93.29,
+        "virtual_time_s": 975.713819052369
+      }
+    },
+    {
+      "step": 69,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 68.51366244388197,
+      "dispatch_decision": {
+        "route_length_m": 16916.219798814505,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 12,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 111.42,
+        "virtual_time_s": 1001.0266742177628
+      }
+    },
+    {
+      "step": 70,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1007.0266742177628
+      }
+    },
+    {
+      "step": 71,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1013.0266742177628
+      }
+    },
+    {
+      "step": 72,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1019.0266742177628
+      }
+    },
+    {
+      "step": 73,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1025.0266742177628
+      }
+    },
+    {
+      "step": 74,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1031.0266742177628
+      }
+    },
+    {
+      "step": 75,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        363.978459,
+        918.072466
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1037.0266742177628
+      }
+    },
+    {
+      "step": 76,
+      "action": "clear",
+      "channel": 3,
+      "position": [
+        293.496879,
+        1097.580097
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 43.56975125480558,
+      "dispatch_decision": {
+        "route_length_m": 16815.84806349953,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "posterior_clear",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": 3,
+        "previous_feedback_label": "direction_90_120",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 1,
+        "gdop_candidates": [
+          {
+            "position": [
+              404.3624231767814,
+              1051.6580854747697
+            ],
+            "rank_score": 341.8602184331165,
+            "receive_probability": 0.96875,
+            "expected_gdop": 255.51548656873354
+          },
+          {
+            "position": [
+              513.4968792754271,
+              1097.5800973585806
+            ],
+            "rank_score": 406.4337555662061,
+            "receive_probability": 0.96875,
+            "expected_gdop": 287.16642348664425
+          },
+          {
+            "position": [
+              496.75037642791006,
+              1013.3897422382607
+            ],
+            "rank_score": 428.33145938050285,
+            "receive_probability": 0.96875,
+            "expected_gdop": 333.6262477485792
+          },
+          {
+            "position": [
+              208.64406553304133,
+              1012.7272836161949
+            ],
+            "rank_score": 451.9066594118153,
+            "receive_probability": 0.90625,
+            "expected_gdop": 275.74098761190714
+          },
+          {
+            "position": [
+              349.3461265799343,
+              1119.5086535244568
+            ],
+            "rank_score": 472.12898476999027,
+            "receive_probability": 0.875,
+            "expected_gdop": 251.44055755192417
+          },
+          {
+            "position": [
+              449.06037113646744,
+              942.0166054975401
+            ],
+            "rank_score": 483.32247448645376,
+            "receive_probability": 1.0,
+            "expected_gdop": 452.3870406821297
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 7,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 1080.5964254259459
+      }
+    },
+    {
+      "step": 77,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        261.011505,
+        1208.927133
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 148.04297370027015,
+      "dispatch_decision": {
+        "route_length_m": 16622.999307265352,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 12,
+        "selected_choice": 12,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 185,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 154.67,
+        "virtual_time_s": 1109.7942373485434
+      }
+    },
+    {
+      "step": 78,
+      "action": "clear",
+      "channel": 20,
+      "position": [
+        162.5,
+        1237.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 62.835380226338174,
+      "dispatch_decision": {
+        "route_length_m": 16544.89264852845,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 12,
+        "selected_choice": 12,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 16,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 1133.3085497630161
+      }
+    },
+    {
+      "step": 79,
+      "action": "clear",
+      "channel": 20,
+      "position": [
+        137.5,
+        1262.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 39.321067811865476,
+      "dispatch_decision": {
+        "route_length_m": 16444.898841514012,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 12,
+        "selected_choice": 12,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "finite_cover",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": -3,
+            "feedback_label": "clear",
+            "training_count": 31,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          },
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": -3,
+            "feedback_label": "clear",
+            "training_count": 31,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          },
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": -3,
+        "previous_feedback_label": "clear",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 1,
+        "gdop_candidates": [
+          {
+            "position": [
+              158.30371613953753,
+              1382.7471606730085
+            ],
+            "rank_score": 409.30702050794525,
+            "receive_probability": 0.96875,
+            "expected_gdop": 320.94930286330924
+          },
+          {
+            "position": [
+              73.45090239715178,
+              1177.8943469306228
+            ],
+            "rank_score": 489.75251827515785,
+            "receive_probability": 0.9375,
+            "expected_gdop": 377.2476450110166
+          },
+          {
+            "position": [
+              229.01439425819228,
+              1453.457838791663
+            ],
+            "rank_score": 490.3223252487594,
+            "receive_probability": 0.96875,
+            "expected_gdop": 373.7332032695657
+          },
+          {
+            "position": [
+              276.7043995496349,
+              1382.0847020509425
+            ],
+            "rank_score": 564.2539042391159,
+            "receive_probability": 0.96875,
+            "expected_gdop": 462.2670515821794
+          },
+          {
+            "position": [
+              73.45090239715176,
+              1077.8943469306228
+            ],
+            "rank_score": 570.5084444900681,
+            "receive_probability": 0.9375,
+            "expected_gdop": 431.5400615281779
+          },
+          {
+            "position": [
+              313.867208000578,
+              1538.3106525340488
+            ],
+            "rank_score": 617.3103505919561,
+            "receive_probability": 0.96875,
+            "expected_gdop": 461.94862083567904
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 15,
+        "latest_feedback": "no_target_in_range",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 1143.3796175748816
+      }
+    },
+    {
+      "step": 80,
+      "action": "clear",
+      "channel": 20,
+      "position": [
+        112.5,
+        1262.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 28.75,
+      "dispatch_decision": {
+        "route_length_m": 16411.815324977873,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 12,
+        "selected_choice": 12,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19,
+          20
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 14,
+        "latest_feedback": "no_target_in_range",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 1153.3796175748816
+      }
+    },
+    {
+      "step": 81,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -281.889822,
+        937.096634
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 16342.203235321103,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1261.6402028071834
+      }
+    },
+    {
+      "step": 82,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -281.889822,
+        937.096634
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1267.6402028071834
+      }
+    },
+    {
+      "step": 83,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        -281.889822,
+        937.096634
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1273.6402028071834
+      }
+    },
+    {
+      "step": 84,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        -281.889822,
+        937.096634
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1279.6402028071834
+      }
+    },
+    {
+      "step": 85,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        -281.889822,
+        937.096634
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1285.6402028071834
+      }
+    },
+    {
+      "step": 86,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        -281.889822,
+        937.096634
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1291.6402028071834
+      }
+    },
+    {
+      "step": 87,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        -773.654767,
+        623.423058
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 15830.900309159593,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1413.2976283593498
+      }
+    },
+    {
+      "step": 88,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -773.654767,
+        623.423058
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1419.2976283593498
+      }
+    },
+    {
+      "step": 89,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -773.654767,
+        623.423058
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 240.59,
+        "virtual_time_s": 1425.2976283593498
+      }
+    },
+    {
+      "step": 90,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        -773.654767,
+        623.423058
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "skipped_channels_at_station": [],
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 235.56,
+        "virtual_time_s": 1431.2976283593498
+      }
+    },
+    {
+      "step": 91,
+      "action": "measure",
+      "channel": 11,
+      "position": [
+        -848.512209,
+        514.356443
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 174.5021951296962,
+      "dispatch_decision": {
+        "route_length_m": 6021.2772253326275,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 8,
+        "selected_choice": 8,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 163,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 251.51999999999998,
+        "virtual_time_s": 1463.7545088484335
+      }
+    },
+    {
+      "step": 92,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -912.5,
+        337.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 45.11523033435895,
+      "dispatch_decision": {
+        "route_length_m": 5846.736013541395,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 8,
+        "selected_choice": 8,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 2,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 1504.3697391827925
+      }
+    },
+    {
+      "step": 93,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -912.5,
+        312.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 10.0,
+      "dispatch_decision": {
+        "route_length_m": 5659.888840436722,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 8,
+        "selected_choice": 8,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 1,
+        "latest_feedback": "no_target_in_range",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 1514.3697391827925
+      }
+    },
+    {
+      "step": 94,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        -1022.920932,
+        83.844916
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 198.21663635749215,
+      "dispatch_decision": {
+        "route_length_m": 5636.760827129051,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 10,
+        "selected_choice": 6,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 176,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 228.54,
+        "virtual_time_s": 1571.1539610091809
+      }
+    },
+    {
+      "step": 95,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -1165.357328,
+        -13.046908
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 189.17209650677592,
+      "dispatch_decision": {
+        "route_length_m": 5828.992605625809,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 10,
+        "selected_choice": 5,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 172,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 241.57999999999998,
+        "virtual_time_s": 1611.6074963653768
+      }
+    },
+    {
+      "step": 96,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        -1437.514196,
+        -270.60606
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 140.6074393915746,
+      "dispatch_decision": {
+        "route_length_m": 5669.21148841924,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 10,
+        "selected_choice": 6,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 41,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 258.53,
+        "virtual_time_s": 1692.5490943143207
+      }
+    },
+    {
+      "step": 97,
+      "action": "clear",
+      "channel": 9,
+      "position": [
+        -1466.917801,
+        -414.85708
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 34.44345685869557,
+      "dispatch_decision": {
+        "route_length_m": 5270.6107761703015,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": 6,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "posterior_clear",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": 8,
+        "previous_feedback_label": "direction_240_270",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 1,
+        "gdop_candidates": [
+          {
+            "position": [
+              -1382.0649867893394,
+              -330.00426648031015
+            ],
+            "rank_score": 359.4053624022738,
+            "receive_probability": 1.0,
+            "expected_gdop": 330.9652795515201
+          },
+          {
+            "position": [
+              -1311.3543086706845,
+              -259.29358836165545
+            ],
+            "rank_score": 490.35454612427174,
+            "receive_probability": 1.0,
+            "expected_gdop": 446.0214272939271
+          },
+          {
+            "position": [
+              -1408.1267336070841,
+              -426.8408379748531
+            ],
+            "rank_score": 538.8159284448085,
+            "receive_probability": 0.84375,
+            "expected_gdop": 295.6748125559582
+          },
+          {
+            "position": [
+              -1263.664303379242,
+              -330.6667251023761
+            ],
+            "rank_score": 554.8457384016566,
+            "receive_probability": 0.90625,
+            "expected_gdop": 377.96945464391985
+          },
+          {
+            "position": [
+              -1551.7706142741108,
+              -330.00426648031015
+            ],
+            "rank_score": 577.0738608676843,
+            "receive_probability": 0.84375,
+            "expected_gdop": 344.5030519542257
+          },
+          {
+            "position": [
+              -1525.708867456366,
+              -402.8733224705386
+            ],
+            "rank_score": 604.0833341645484,
+            "receive_probability": 0.8125,
+            "expected_gdop": 323.4422182756981
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 6,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 1726.99255114808
+      }
+    },
+    {
+      "step": 98,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -1498.62553,
+        -474.062168
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 74.2763972456975,
+      "dispatch_decision": {
+        "route_length_m": 5123.39349232841,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 5,
+        "selected_choice": 5,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 51,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 286.31,
+        "virtual_time_s": 1746.4247848021305
+      }
+    },
+    {
+      "step": 99,
+      "action": "clear",
+      "channel": 8,
+      "position": [
+        -1468.19545,
+        -578.143393
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 26.687684246533504,
+      "dispatch_decision": {
+        "route_length_m": 5225.162741811783,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 5,
+        "selected_choice": 5,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          8,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "posterior_clear",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": 9,
+        "previous_feedback_label": "direction_270_300",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 1,
+        "gdop_candidates": [
+          {
+            "position": [
+              -1422.2734385752299,
+              -467.27784939199194
+            ],
+            "rank_score": 281.33098419015727,
+            "receive_probability": 1.0,
+            "expected_gdop": 254.5024651594849
+          },
+          {
+            "position": [
+              -1525.7845728993393,
+              -594.9806429665049
+            ],
+            "rank_score": 341.49167478334465,
+            "receive_probability": 0.90625,
+            "expected_gdop": 185.6158269883955
+          },
+          {
+            "position": [
+              -1579.060994360395,
+              -532.2213814095355
+            ],
+            "rank_score": 347.01456653981677,
+            "receive_probability": 0.9375,
+            "expected_gdop": 237.2739007598866
+          },
+          {
+            "position": [
+              -1362.2021075983764,
+              -380.3596234406751
+            ],
+            "rank_score": 391.0046716372618,
+            "receive_probability": 1.0,
+            "expected_gdop": 333.07833188589007
+          },
+          {
+            "position": [
+              -1410.6063280187418,
+              -561.3061436201878
+            ],
+            "rank_score": 456.66005415292346,
+            "receive_probability": 0.84375,
+            "expected_gdop": 225.7842063579743
+          },
+          {
+            "position": [
+              -1671.4489476115236,
+              -493.9530381730265
+            ],
+            "rank_score": 458.7943099405431,
+            "receive_probability": 0.9375,
+            "expected_gdop": 322.90680220769207
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 5,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 1773.1124690181155
+      }
+    },
+    {
+      "step": 100,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -1212.608675,
+        -522.411176
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 438.9221885671485,
+      "dispatch_decision": {
+        "route_length_m": 5087.630252727882,
+        "route_count": 4,
+        "plan": "source_first",
+        "baseline_choice": 4,
+        "selected_choice": 8,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 163,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 26.05,
+        "virtual_time_s": 1831.4309856510001
+      }
+    },
+    {
+      "step": 101,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -1040.171232,
+        -496.337024
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 257.013701584068,
+      "dispatch_decision": {
+        "route_length_m": 5397.448978574926,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 4,
+        "selected_choice": 4,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 167,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 148.88,
+        "virtual_time_s": 1872.3105115370538
+      }
+    },
+    {
+      "step": 102,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -615.770659,
+        -317.883833
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 168.60932040648208,
+      "dispatch_decision": {
+        "route_length_m": 6034.590142132644,
+        "route_count": 4,
+        "plan": "source_first",
+        "baseline_choice": 4,
+        "selected_choice": 8,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 37,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 53.56,
+        "virtual_time_s": 1970.389040574134
+      }
+    },
+    {
+      "step": 103,
+      "action": "clear",
+      "channel": 17,
+      "position": [
+        -503.594882,
+        -166.263921
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 42.72108293049248,
+      "dispatch_decision": {
+        "route_length_m": 5447.162246789803,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 8,
+        "selected_choice": 8,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14,
+          17,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "posterior_clear",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": 1,
+        "previous_feedback_label": "direction_30_60",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 1,
+        "gdop_candidates": [
+          {
+            "position": [
+              -455.3608763965336,
+              -201.94978243099797
+            ],
+            "rank_score": 257.0393035298217,
+            "receive_probability": 1.0,
+            "expected_gdop": 187.76758997776756
+          },
+          {
+            "position": [
+              -551.8288882753168,
+              -130.5780605507257
+            ],
+            "rank_score": 257.20416176780486,
+            "receive_probability": 1.0,
+            "expected_gdop": 187.93244821575075
+          },
+          {
+            "position": [
+              -457.6728704521144,
+              -277.1294653922162
+            ],
+            "rank_score": 292.4290595651355,
+            "receive_probability": 1.0,
+            "expected_gdop": 235.28591404620045
+          },
+          {
+            "position": [
+              -623.5948823359251,
+              -166.2639214908618
+            ],
+            "rank_score": 326.020237817545,
+            "receive_probability": 1.0,
+            "expected_gdop": 272.8826572881867
+          },
+          {
+            "position": [
+              -549.516894219736,
+              -55.39837758950742
+            ],
+            "rank_score": 331.21525701885133,
+            "receive_probability": 1.0,
+            "expected_gdop": 236.46399572340738
+          },
+          {
+            "position": [
+              -348.0313904748848,
+              -321.82741335190235
+            ],
+            "rank_score": 369.90238630230067,
+            "receive_probability": 1.0,
+            "expected_gdop": 276.1834778702048
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 6,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2013.1101236235065
+      }
+    },
+    {
+      "step": 104,
+      "action": "clear",
+      "channel": 7,
+      "position": [
+        -1155.100064,
+        -426.984997
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 153.7472815515087,
+      "dispatch_decision": {
+        "route_length_m": 5258.556832631593,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 4,
+        "changed": true,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 6,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2158.457475809923
+      }
+    },
+    {
+      "step": 105,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1002.001585,
+        -516.346464
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 246.13939992029788,
+      "dispatch_decision": {
+        "route_length_m": 4556.820072580651,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          10,
+          13,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 179,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 356.47,
+        "virtual_time_s": 2199.9114550260874
+      }
+    },
+    {
+      "step": 106,
+      "action": "clear",
+      "channel": 1,
+      "position": [
+        -713.424832,
+        -534.062584
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 64.73450355790305,
+      "dispatch_decision": {
+        "route_length_m": 4379.022968834698,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          1,
+          2,
+          4,
+          5,
+          10,
+          13,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 4,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2262.7354650149764
+      }
+    },
+    {
+      "step": 107,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        -616.794267,
+        -672.485793
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 180.74326457954015,
+      "dispatch_decision": {
+        "route_length_m": 4089.9029186203834,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 4,
+        "selected_choice": 4,
+        "changed": false,
+        "known_channels": [
+          2,
+          4,
+          5,
+          10,
+          13,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 169,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 20.7,
+        "virtual_time_s": 2302.498433416512
+      }
+    },
+    {
+      "step": 108,
+      "action": "clear",
+      "channel": 13,
+      "position": [
+        -227.218895,
+        -525.197575
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 88.29772864174706,
+      "dispatch_decision": {
+        "route_length_m": 4857.6059398888865,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 4,
+        "selected_choice": 4,
+        "changed": false,
+        "known_channels": [
+          2,
+          4,
+          5,
+          10,
+          13,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 6,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 2388.796161988317
+      }
+    },
+    {
+      "step": 109,
+      "action": "clear",
+      "channel": 13,
+      "position": [
+        -237.5,
+        -537.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 16.20656065529189,
+      "dispatch_decision": {
+        "route_length_m": 4442.319403585293,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 4,
+        "selected_choice": 4,
+        "changed": false,
+        "known_channels": [
+          2,
+          4,
+          5,
+          10,
+          13,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "finite_cover",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": -3,
+            "feedback_label": "clear",
+            "training_count": 20,
+            "second_action": "clear",
+            "second_position": [
+              -211.459369,
+              -511.842595
+            ],
+            "second_reason": "mpc_posterior_clear"
+          },
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": -3,
+            "feedback_label": "clear",
+            "training_count": 20,
+            "second_action": "clear",
+            "second_position": [
+              -211.459369,
+              -511.842595
+            ],
+            "second_reason": "mpc_posterior_clear"
+          },
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": -3,
+        "previous_feedback_label": "clear",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 5,
+        "gdop_candidates": [
+          {
+            "position": [
+              -242.813439564101,
+              -467.2551320967355
+            ],
+            "rank_score": 401.80686180087014,
+            "receive_probability": 1.0,
+            "expected_gdop": 380.8053553681026
+          },
+          {
+            "position": [
+              -312.7678867896723,
+              -440.5232154149653
+            ],
+            "rank_score": 426.88967675626,
+            "receive_probability": 1.0,
+            "expected_gdop": 384.76099053176165
+          },
+          {
+            "position": [
+              -312.1054281676063,
+              -322.12253200486794
+            ],
+            "rank_score": 498.08737889185676,
+            "receive_probability": 1.0,
+            "expected_gdop": 421.0514354395662
+          },
+          {
+            "position": [
+              -383.47856490832703,
+              -369.81253729631055
+            ],
+            "rank_score": 498.3714690335318,
+            "receive_probability": 1.0,
+            "expected_gdop": 421.24303515989834
+          },
+          {
+            "position": [
+              -431.16857019976965,
+              -441.1856740370312
+            ],
+            "rank_score": 549.5760065273392,
+            "receive_probability": 1.0,
+            "expected_gdop": 472.3746463327537
+          },
+          {
+            "position": [
+              -227.91507304728657,
+              -305.376029157351
+            ],
+            "rank_score": 551.080889327875,
+            "receive_probability": 1.0,
+            "expected_gdop": 474.1429624428571
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 6,
+        "latest_feedback": "no_target_in_range",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2397.002722643609
+      }
+    },
+    {
+      "step": 110,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        176.382753,
+        -1161.3021
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 262.01069793991314,
+      "dispatch_decision": {
+        "route_length_m": 3745.030423984561,
+        "route_count": 4,
+        "plan": "source_first",
+        "baseline_choice": 6,
+        "selected_choice": 2,
+        "changed": true,
+        "known_channels": [
+          2,
+          4,
+          5,
+          10,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 131,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 331.59,
+        "virtual_time_s": 2552.726200187416
+      }
+    },
+    {
+      "step": 111,
+      "action": "clear",
+      "channel": 5,
+      "position": [
+        423.143015,
+        -1294.944936
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 63.324941724702825,
+      "dispatch_decision": {
+        "route_length_m": 2917.538105542552,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          2,
+          4,
+          5,
+          10,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 6,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2613.851429636009
+      }
+    },
+    {
+      "step": 112,
+      "action": "measure",
+      "channel": 4,
+      "position": [
+        487.518095,
+        -1375.080521
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 100.58740934750918,
+      "dispatch_decision": {
+        "route_length_m": 2636.911958222207,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 1,
+        "changed": false,
+        "known_channels": [
+          2,
+          4,
+          10,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 140,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 357.27,
+        "virtual_time_s": 2640.4095063050936
+      }
+    },
+    {
+      "step": 113,
+      "action": "clear",
+      "channel": 4,
+      "position": [
+        668.797642,
+        -1383.765497
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 41.437004986094124,
+      "dispatch_decision": {
+        "route_length_m": 2604.249834799708,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 1,
+        "changed": false,
+        "known_channels": [
+          2,
+          4,
+          10,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 3,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2681.7070009672025
+      }
+    },
+    {
+      "step": 114,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        609.920623,
+        -1289.796504
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 81.35000576311539,
+      "dispatch_decision": {
+        "route_length_m": 2422.7623614920353,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 4,
+        "selected_choice": 4,
+        "changed": false,
+        "known_channels": [
+          2,
+          10,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 26,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 84.91,
+        "virtual_time_s": 2709.8850757364517
+      }
+    },
+    {
+      "step": 115,
+      "action": "clear",
+      "channel": 19,
+      "position": [
+        629.418719,
+        -1071.033564
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 48.92602860426361,
+      "dispatch_decision": {
+        "route_length_m": 2419.4541289880744,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 4,
+        "selected_choice": 4,
+        "changed": false,
+        "known_channels": [
+          2,
+          10,
+          14,
+          18,
+          19
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "gdop_mpc_decision": {
+        "horizon": 2,
+        "candidate_count": 9,
+        "second_action_count": 7,
+        "selected_index": 0,
+        "selected_reason": "posterior_clear",
+        "train_gain_s": 0.0,
+        "selected_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "baseline_second_branches": [
+          {
+            "feedback_branch": null,
+            "feedback_label": "default",
+            "training_count": 0,
+            "second_action": "terminal_fallback",
+            "second_position": null,
+            "second_reason": "terminal_fallback"
+          }
+        ],
+        "posterior_recovered": true,
+        "posterior_numeric": true,
+        "clear_half": 12.5,
+        "previous_feedback_branch": 2,
+        "previous_feedback_label": "direction_60_90",
+        "skipped_repeat_observations": 0,
+        "quadrature_level": 1,
+        "gdop_candidates": [
+          {
+            "position": [
+              569.6556268516929,
+              -1065.7069464370884
+            ],
+            "rank_score": 299.82960557607316,
+            "receive_probability": 1.0,
+            "expected_gdop": 220.14220716116273
+          },
+          {
+            "position": [
+              518.5531747968066,
+              -1116.9555757232113
+            ],
+            "rank_score": 328.4172458006642,
+            "receive_probability": 1.0,
+            "expected_gdop": 259.9906819373056
+          },
+          {
+            "position": [
+              426.1652215456779,
+              -1155.2239189597203
+            ],
+            "rank_score": 397.397231430421,
+            "receive_probability": 1.0,
+            "expected_gdop": 317.68030126193275
+          },
+          {
+            "position": [
+              409.418718698161,
+              -1071.0335638394006
+            ],
+            "rank_score": 400.7161971639203,
+            "receive_probability": 1.0,
+            "expected_gdop": 296.855068207964
+          },
+          {
+            "position": [
+              689.1818105446291,
+              -1076.3601812417128
+            ],
+            "rank_score": 407.5430009616592,
+            "receive_probability": 0.9375,
+            "expected_gdop": 252.8556025467488
+          },
+          {
+            "position": [
+              544.5659049557753,
+              -986.1807500970149
+            ],
+            "rank_score": 429.5458463489704,
+            "receive_probability": 1.0,
+            "expected_gdop": 320.84632364708375
+          }
+        ],
+        "accepted": false
+      },
+      "light_decision": {
+        "tree_triggered": true,
+        "cover_cells": 4,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2758.8111043140816
+      }
+    },
+    {
+      "step": 116,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        749.712519,
+        -1141.571705
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 133.31409334470533,
+      "dispatch_decision": {
+        "route_length_m": 2199.823985652297,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          10,
+          14,
+          18
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 158,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 72.16,
+        "virtual_time_s": 2792.7010506418724
+      }
+    },
+    {
+      "step": 117,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        803.631276,
+        -974.04127
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 40.198681218597955,
+      "dispatch_decision": {
+        "route_length_m": 2037.6903210913727,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          10,
+          14,
+          18
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 3,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 2832.8997318715515
+      }
+    },
+    {
+      "step": 118,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1392.232816,
+        -484.167334
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 264.23933114102454,
+      "dispatch_decision": {
+        "route_length_m": 1861.696915174124,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          10,
+          14,
+          18
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 98,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 41.62,
+        "virtual_time_s": 2992.056938174422
+      }
+    },
+    {
+      "step": 119,
+      "action": "clear",
+      "channel": 18,
+      "position": [
+        1756.138739,
+        -161.101455
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 108.67245382256291,
+      "dispatch_decision": {
+        "route_length_m": 1210.8540110609797,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          10,
+          14,
+          18
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 8,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 3094.380950210204
+      }
+    },
+    {
+      "step": 120,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1740.544651,
+        43.436371
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 205.87736911690138,
+      "dispatch_decision": {
+        "route_length_m": 724.2339506677251,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 1,
+        "changed": false,
+        "known_channels": [
+          10,
+          14
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 102,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 96.92,
+        "virtual_time_s": 3141.4072334176103
+      }
+    },
+    {
+      "step": 121,
+      "action": "clear",
+      "channel": 14,
+      "position": [
+        1693.083935,
+        434.666383
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 86.59775261580505,
+      "dispatch_decision": {
+        "route_length_m": 623.596183178156,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 1,
+        "changed": false,
+        "known_channels": [
+          10,
+          14
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 5,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 3225.226886259463
+      }
+    },
+    {
+      "step": 122,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1635.10948,
+        516.464618
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 118.61364001133484,
+      "dispatch_decision": {
+        "route_length_m": 229.49791944585328,
+        "route_count": 2,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          10
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 112,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 132.64,
+        "virtual_time_s": 3251.278807545626
+      }
+    },
+    {
+      "step": 123,
+      "action": "clear",
+      "channel": 10,
+      "position": [
+        1573.904295,
+        582.927731
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 23.070329438566173,
+      "dispatch_decision": {
+        "route_length_m": 90.35164719283087,
+        "route_count": 2,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          10
+        ],
+        "task_mpc": false,
+        "task_model": "geometric_route_insertion",
+        "unknown_discovery_value_included": false
+      },
+      "light_decision": {
+        "tree_triggered": false,
+        "cover_cells": 4,
+        "latest_feedback": "direction",
+        "clear_grid_m": 25.0
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 3274.349136884667
+      }
+    }
+  ],
+  "truth": {
+    "seed": 1480031,
+    "source_count": 16,
+    "sources": {
+      "9": {
+        "position": [
+          -1464.320089455732,
+          -402.13882125051833
+        ],
+        "radius": 1347.4631169403033,
+        "directional": true,
+        "theta": 6.1963187624693274
+      },
+      "3": {
+        "position": [
+          295.2661862849695,
+          1095.6083630200949
+        ],
+        "radius": 1474.7506432541104,
+        "directional": false,
+        "theta": 2.325191671758737
+      },
+      "2": {
+        "position": [
+          803.8791086630231,
+          -968.1509076268069
+        ],
+        "radius": 1038.3256298909816,
+        "directional": false,
+        "theta": 2.2788698705902846
+      },
+      "19": {
+        "position": [
+          629.0919609798209,
+          -1073.3793471109173
+        ],
+        "radius": 1453.717165913188,
+        "directional": false,
+        "theta": 5.791927926562095
+      },
+      "1": {
+        "position": [
+          -711.4336763343807,
+          -532.8810272111828
+        ],
+        "radius": 1105.847411498013,
+        "directional": false,
+        "theta": 4.268858248535503
+      },
+      "11": {
+        "position": [
+          -919.5340091827059,
+          308.3999862141402
+        ],
+        "radius": 1291.8885404839634,
+        "directional": false,
+        "theta": 0.32840542594161753
+      },
+      "8": {
+        "position": [
+          -1466.7605962664873,
+          -584.354501023701
+        ],
+        "radius": 1418.1362143136198,
+        "directional": false,
+        "theta": 0.5340978971848259
+      },
+      "13": {
+        "position": [
+          -243.62079855713054,
+          -538.21493815899
+        ],
+        "radius": 1339.3560982439417,
+        "directional": false,
+        "theta": 4.7425560404450415
+      },
+      "7": {
+        "position": [
+          -1162.3165939717103,
+          -424.58358777494306
+        ],
+        "radius": 1281.527560920507,
+        "directional": false,
+        "theta": 5.26980973228272
+      },
+      "14": {
+        "position": [
+          1697.9343894318797,
+          434.031826176346
+        ],
+        "radius": 1365.2081522673893,
+        "directional": false,
+        "theta": 3.9285854491128966
+      },
+      "20": {
+        "position": [
+          104.07160468318067,
+          1280.0706114236482
+        ],
+        "radius": 1187.8539516530616,
+        "directional": false,
+        "theta": 4.29205571532649
+      },
+      "17": {
+        "position": [
+          -501.0624036914931,
+          -165.50212813766174
+        ],
+        "radius": 1482.6125692241048,
+        "directional": false,
+        "theta": 2.5259547428575932
+      },
+      "5": {
+        "position": [
+          430.90085548093424,
+          -1302.4066002108054
+        ],
+        "radius": 1118.7816908310485,
+        "directional": true,
+        "theta": 2.5879457467135305
+      },
+      "10": {
+        "position": [
+          1585.8147577975242,
+          570.3958296962543
+        ],
+        "radius": 1348.895577763583,
+        "directional": false,
+        "theta": 4.585655654631181
+      },
+      "18": {
+        "position": [
+          1761.0752070123851,
+          -164.8943429867311
+        ],
+        "radius": 1154.4229350662763,
+        "directional": false,
+        "theta": 4.831352377862196
+      },
+      "4": {
+        "position": [
+          681.0934168782444,
+          -1384.530922205824
+        ],
+        "radius": 1499.6720258264193,
+        "directional": false,
+        "theta": 5.687238048730572
+      }
+    }
+  },
+  "replay_audit": {
+    "entries": 123,
+    "replay": true,
+    "cleared_matches": true,
+    "virtual_time_matches": true
+  },
+  "strict_audit": {
+    "actions": 123,
+    "absent_certificates": 4,
+    "replay": true,
+    "continuous_hull_check": true
+  }
+}

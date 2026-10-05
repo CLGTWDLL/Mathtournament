@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-13",
+  "supplement_algorithm": "代码/动态骨架_v1/q4_dynamic_policy.Policy()",
+  "supplement_algorithm_configuration": {
+    "base_controller": "q4_base_policy.Policy()（29 个后续站加原点，25 米连续方向覆盖证书，有界两步场景树）",
+    "existence_stop_threshold": 0.01,
+    "existence_samples": 16384,
+    "feedback_geometry": false,
+    "strict_prune_interval": 0
+  },
+  "deleted_algorithm": "代码/轻量优化_v1/（29 站静态骨架独立版，2026-09-13 删除；其基础控制器类仍被新算法继承）",
+  "certificate": "25 m squares, whole-cell radius 999.9 m, continuous direction convex hull, Qhull audit",
+  "skeleton": {
+    "stations_after_origin": 29,
+    "open_route_m": 17505.9748871159,
+    "previous_open_route_m": 17551.545789803466,
+    "offline_proposals": 1800,
+    "discovery_order_search_scenarios": 4096
+  },
+  "three_scenario_paired": {
+    "source": "数据/实验结果/sparse_backbone/",
+    "note": "稀疏臂为早于动态层的实现（q4_sparse_backbone.Policy），只用于说明骨架选择，不代表论文正式主方案的全部成绩，也不代表补充优化实验成绩",
+    "seeds_per_scenario": 14,
+    "arms": [
+      "q4_sparse_backbone.Policy (29 stations, 25 m certificate)",
+      "q4_dispatch_policy.Policy (37 stations, 100 m certificate)"
+    ],
+    "uniform": {
+      "cases": 14,
+      "dense_mean_virtual_s": 9577.03901701487,
+      "sparse_mean_virtual_s": 6517.482579359138,
+      "mean_saved_s": 3059.556437655728,
+      "ci95_saved_s": [2776.065573722497, 3343.0473015889593],
+      "percent_saved": 31.946788900202073,
+      "faster_cases": 14,
+      "cleared": "182/182"
+    },
+    "outward": {
+      "cases": 14,
+      "dense_mean_virtual_s": 10192.752532157281,
+      "sparse_mean_virtual_s": 7102.731306497415,
+      "mean_saved_s": 3090.0212256598684,
+      "ci95_saved_s": [2803.4002733205934, 3376.6421779991433],
+      "percent_saved": 30.315866258021178,
+      "faster_cases": 14,
+      "cleared": "182/182"
+    },
+    "cluster": {
+      "cases": 14,
+      "dense_mean_virtual_s": 8933.13168619373,
+      "sparse_mean_virtual_s": 5918.475757872662,
+      "mean_saved_s": 3014.6559283210677,
+      "ci95_saved_s": [2532.5863536245406, 3496.7255030175947],
+      "percent_saved": 33.7469102014947,
+      "faster_cases": 14,
+      "cleared": "182/182"
+    }
+  },
+  "new_vs_old_40runs": {
+    "source": "数据/对比40次/20260913-145508-pair40/",
+    "distribution": "uniform",
+    "seeds": 40,
+    "seed_start": 1480000,
+    "source_count_range": [10, 16],
+    "arms": [
+      "旧算法：29 站静态骨架（已删除）",
+      "新算法：动态站点默认配置（几何层关闭）"
+    ],
+    "completed": "40/40 both arms",
+    "cleared_all_actual_sources": "40/40 both arms",
+    "old_mean_virtual_s": 6328.332252953174,
+    "new_mean_virtual_s": 6183.911296602925,
+    "old_total_virtual_s": 253133.28836178864,
+    "new_total_virtual_s": 247356.45180516145,
+    "paired_mean_saved_virtual_s": 144.420956350249,
+    "paired_ci95_saved_virtual_s": [123.03, 165.81],
+    "faster_cases": 35,
+    "tied_cases": 5,
+    "tied_cases_reason": "16 个源的实例不触发概率停止，两版路线逐动作一致",
+    "probability_stop_runs": 35,
+    "mean_saved_virtual_on_stopped_runs_s": 165.05,
+    "percent_saved": 2.2821,
+    "old_certificate": "40/40 通过确定性连续方向覆盖证书",
+    "new_certificate": "35 局以 1% 后验阈值结束（仅逐动作回放审计），5 局通过确定性证书",
+    "old_mean_cpu_s": 15.410643050199994,
+    "geometry_layer_on_mean_cpu_s": 29.810713391200004,
+    "geometry_layer_effect": "0 个频道被关闭；打开与关闭，40/40 局虚拟时间与动作序列完全一致",
+    "cpu_ab_sequential": {
+      "source": "数据/对比40次/20260913-145508-pair40/cpu_ab_sequential.json",
+      "seeds": [1480014, 1480000, 1480002, 1480005],
+      "old_mean_cpu_s": 12.973,
+      "new_mean_cpu_s": 13.181,
+      "mean_delta_s": 0.207,
+      "note": "同一进程内串行 A/B，排除并发争用；批量对照中的 CPU 均值受并发影响，比较以本表为准"
+    }
+  },
+  "audit": {
+    "new_vs_old_40runs": "80 条记录逐动作回放全部一致；新算法 5 局、旧算法 40 局通过连续方向覆盖证书",
+    "three_scenario": "84 records, per-action replay and continuous certificate check passed, 546/546 sources cleared"
+  },
+  "official_simulator_used": false
+}
+

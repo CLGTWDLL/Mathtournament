@@ -1,0 +1,3 @@
+{"event": "request", "path": "/enter", "payload": {"arena_id": "default", "robot_id": "ANON_TEAM、", "request_id": "2e58e3bc76a4493586a668c737e29b2a"}, "attempt": 0, "timestamp": 1789290418.2957366}
+{"event": "response", "path": "/enter", "request_id": "2e58e3bc76a4493586a668c737e29b2a", "status": 200, "body": {"accepted": false, "real_timestamp_ms": 1789290418974, "virtual_time_s": 0}}
+{"event": "failure", "status": "error_or_incomplete", "error": "ProtocolError: /enter rejected: HTTP 200, accepted=False", "last_accepted_virtual_s": 0.0}

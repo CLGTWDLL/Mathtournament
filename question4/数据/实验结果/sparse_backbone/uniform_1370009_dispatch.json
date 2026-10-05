@@ -1,0 +1,8733 @@
+{
+  "version": "4d33578c12d5fbd5",
+  "summary": {
+    "seed": 1370009,
+    "mode": "dispatch",
+    "distribution": "uniform",
+    "particles": 32,
+    "source_count": 14,
+    "directional_count": 13,
+    "cleared": 14,
+    "clear_fraction": 1.0,
+    "complete": true,
+    "virtual_s": 10302.60462292108,
+    "average_per_cleared_s": 735.9003302086486,
+    "move_m": 38373.0231146054,
+    "measurements": 425,
+    "switches": 385,
+    "clear_attempts": 30,
+    "joint_batches": 0,
+    "numeric_fallbacks": 1,
+    "absence_reason": {
+      "1": "continuous_directional_cover",
+      "6": "continuous_directional_cover",
+      "10": "continuous_directional_cover",
+      "14": "continuous_directional_cover",
+      "19": "continuous_directional_cover",
+      "20": "continuous_directional_cover"
+    },
+    "wall_s": 2.9247776250122115,
+    "error": null
+  },
+  "logs": [
+    {
+      "step": 1,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5.0
+      }
+    },
+    {
+      "step": 2,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 11.0
+      }
+    },
+    {
+      "step": 3,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 17.0
+      }
+    },
+    {
+      "step": 4,
+      "action": "measure",
+      "channel": 4,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 202.31,
+        "virtual_time_s": 23.0
+      }
+    },
+    {
+      "step": 5,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 29.0
+      }
+    },
+    {
+      "step": 6,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 35.0
+      }
+    },
+    {
+      "step": 7,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 41.0
+      }
+    },
+    {
+      "step": 8,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 47.0
+      }
+    },
+    {
+      "step": 9,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 37.86,
+        "virtual_time_s": 53.0
+      }
+    },
+    {
+      "step": 10,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 59.0
+      }
+    },
+    {
+      "step": 11,
+      "action": "measure",
+      "channel": 11,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 65.0
+      }
+    },
+    {
+      "step": 12,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 71.0
+      }
+    },
+    {
+      "step": 13,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 77.0
+      }
+    },
+    {
+      "step": 14,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 83.0
+      }
+    },
+    {
+      "step": 15,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 89.0
+      }
+    },
+    {
+      "step": 16,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 95.0
+      }
+    },
+    {
+      "step": 17,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 101.0
+      }
+    },
+    {
+      "step": 18,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 107.0
+      }
+    },
+    {
+      "step": 19,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 113.0
+      }
+    },
+    {
+      "step": 20,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        0.0,
+        0.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 119.0
+      }
+    },
+    {
+      "step": 21,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 32094.72710578928,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          4,
+          9
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 129.72013985843003
+      }
+    },
+    {
+      "step": 22,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 135.72013985843003
+      }
+    },
+    {
+      "step": 23,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 141.72013985843003
+      }
+    },
+    {
+      "step": 24,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 147.72013985843003
+      }
+    },
+    {
+      "step": 25,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 153.72013985843003
+      }
+    },
+    {
+      "step": 26,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 159.72013985843003
+      }
+    },
+    {
+      "step": 27,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 165.72013985843003
+      }
+    },
+    {
+      "step": 28,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 171.72013985843003
+      }
+    },
+    {
+      "step": 29,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 177.72013985843003
+      }
+    },
+    {
+      "step": 30,
+      "action": "measure",
+      "channel": 11,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 183.72013985843003
+      }
+    },
+    {
+      "step": 31,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 189.72013985843003
+      }
+    },
+    {
+      "step": 32,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 195.72013985843003
+      }
+    },
+    {
+      "step": 33,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 201.72013985843003
+      }
+    },
+    {
+      "step": 34,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 207.72013985843003
+      }
+    },
+    {
+      "step": 35,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 213.72013985843003
+      }
+    },
+    {
+      "step": 36,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 219.72013985843003
+      }
+    },
+    {
+      "step": 37,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 225.72013985843003
+      }
+    },
+    {
+      "step": 38,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        17.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 231.72013985843003
+      }
+    },
+    {
+      "step": 39,
+      "action": "measure",
+      "channel": 4,
+      "position": [
+        -289.225987,
+        -43.417931
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 262.6290533102579,
+      "dispatch_decision": {
+        "route_length_m": 32066.12640649713,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          4,
+          9
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 228.82,
+        "virtual_time_s": 300.3893337809451
+      }
+    },
+    {
+      "step": 40,
+      "action": "clear",
+      "channel": 4,
+      "position": [
+        -395.842446,
+        -162.509112
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 36.96859628692981,
+      "dispatch_decision": {
+        "route_length_m": 31367.601829069226,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          4,
+          9
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 337.3579300727271
+      }
+    },
+    {
+      "step": 41,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 31207.75884791615,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          9
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 457.916747961756
+      }
+    },
+    {
+      "step": 42,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 463.916747961756
+      }
+    },
+    {
+      "step": 43,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 469.916747961756
+      }
+    },
+    {
+      "step": 44,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 475.916747961756
+      }
+    },
+    {
+      "step": 45,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 481.916747961756
+      }
+    },
+    {
+      "step": 46,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 487.916747961756
+      }
+    },
+    {
+      "step": 47,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 493.916747961756
+      }
+    },
+    {
+      "step": 48,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 499.916747961756
+      }
+    },
+    {
+      "step": 49,
+      "action": "measure",
+      "channel": 11,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 78.41,
+        "virtual_time_s": 505.916747961756
+      }
+    },
+    {
+      "step": 50,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 263.32,
+        "virtual_time_s": 511.916747961756
+      }
+    },
+    {
+      "step": 51,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 517.9167479617561
+      }
+    },
+    {
+      "step": 52,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 523.9167479617561
+      }
+    },
+    {
+      "step": 53,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 529.9167479617561
+      }
+    },
+    {
+      "step": 54,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 535.9167479617561
+      }
+    },
+    {
+      "step": 55,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 541.9167479617561
+      }
+    },
+    {
+      "step": 56,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 547.9167479617561
+      }
+    },
+    {
+      "step": 57,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 553.9167479617561
+      }
+    },
+    {
+      "step": 58,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -420.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 559.9167479617561
+      }
+    },
+    {
+      "step": 59,
+      "action": "measure",
+      "channel": 12,
+      "position": [
+        -535.8956,
+        -1204.327536
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 194.8752192175404,
+      "dispatch_decision": {
+        "route_length_m": 31407.709892257386,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          9,
+          11,
+          12
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 53.93,
+        "virtual_time_s": 662.6221421795213
+      }
+    },
+    {
+      "step": 60,
+      "action": "clear",
+      "channel": 12,
+      "position": [
+        -466.751464,
+        -1108.41813
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 28.64700882372677,
+      "dispatch_decision": {
+        "route_length_m": 30983.590625296478,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          9,
+          11,
+          12
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 691.2691510410745
+      }
+    },
+    {
+      "step": 61,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 30865.35558128867,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 806.9283416302184
+      }
+    },
+    {
+      "step": 62,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 41.77,
+        "virtual_time_s": 812.9283416302184
+      }
+    },
+    {
+      "step": 63,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 818.9283416302184
+      }
+    },
+    {
+      "step": 64,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 824.9283416302184
+      }
+    },
+    {
+      "step": 65,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 830.9283416302184
+      }
+    },
+    {
+      "step": 66,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 836.9283416302184
+      }
+    },
+    {
+      "step": 67,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 842.9283416302184
+      }
+    },
+    {
+      "step": 68,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 848.9283416302184
+      }
+    },
+    {
+      "step": 69,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 854.9283416302184
+      }
+    },
+    {
+      "step": 70,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 860.9283416302184
+      }
+    },
+    {
+      "step": 71,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 337.68,
+        "virtual_time_s": 866.9283416302184
+      }
+    },
+    {
+      "step": 72,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 17.31,
+        "virtual_time_s": 872.9283416302184
+      }
+    },
+    {
+      "step": 73,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 878.9283416302184
+      }
+    },
+    {
+      "step": 74,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 884.9283416302184
+      }
+    },
+    {
+      "step": 75,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 890.9283416302184
+      }
+    },
+    {
+      "step": 76,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -858.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 896.9283416302184
+      }
+    },
+    {
+      "step": 77,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 31476.457933847276,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1076.928341576285
+      }
+    },
+    {
+      "step": 78,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1082.928341576285
+      }
+    },
+    {
+      "step": 79,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1088.928341576285
+      }
+    },
+    {
+      "step": 80,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1094.928341576285
+      }
+    },
+    {
+      "step": 81,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1100.928341576285
+      }
+    },
+    {
+      "step": 82,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1106.928341576285
+      }
+    },
+    {
+      "step": 83,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1112.928341576285
+      }
+    },
+    {
+      "step": 84,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1118.928341576285
+      }
+    },
+    {
+      "step": 85,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1124.928341576285
+      }
+    },
+    {
+      "step": 86,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1130.928341576285
+      }
+    },
+    {
+      "step": 87,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1136.928341576285
+      }
+    },
+    {
+      "step": 88,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1142.928341576285
+      }
+    },
+    {
+      "step": 89,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1295.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1148.928341576285
+      }
+    },
+    {
+      "step": 90,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 30601.457934173966,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1328.928341576285
+      }
+    },
+    {
+      "step": 91,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1334.928341576285
+      }
+    },
+    {
+      "step": 92,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1340.928341576285
+      }
+    },
+    {
+      "step": 93,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1346.928341576285
+      }
+    },
+    {
+      "step": 94,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1352.928341576285
+      }
+    },
+    {
+      "step": 95,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1358.928341576285
+      }
+    },
+    {
+      "step": 96,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1364.928341576285
+      }
+    },
+    {
+      "step": 97,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1370.928341576285
+      }
+    },
+    {
+      "step": 98,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1376.928341576285
+      }
+    },
+    {
+      "step": 99,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1382.928341576285
+      }
+    },
+    {
+      "step": 100,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1388.928341576285
+      }
+    },
+    {
+      "step": 101,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1394.928341576285
+      }
+    },
+    {
+      "step": 102,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -420.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1400.928341576285
+      }
+    },
+    {
+      "step": 103,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 29726.457934173966,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 3,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1580.928341576285
+      }
+    },
+    {
+      "step": 104,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1586.928341576285
+      }
+    },
+    {
+      "step": 105,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1592.928341576285
+      }
+    },
+    {
+      "step": 106,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1598.928341576285
+      }
+    },
+    {
+      "step": 107,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1604.928341576285
+      }
+    },
+    {
+      "step": 108,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1610.928341576285
+      }
+    },
+    {
+      "step": 109,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1616.928341576285
+      }
+    },
+    {
+      "step": 110,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1622.928341576285
+      }
+    },
+    {
+      "step": 111,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1628.928341576285
+      }
+    },
+    {
+      "step": 112,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1634.928341576285
+      }
+    },
+    {
+      "step": 113,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1640.928341576285
+      }
+    },
+    {
+      "step": 114,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1646.928341576285
+      }
+    },
+    {
+      "step": 115,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        454.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1652.928341576285
+      }
+    },
+    {
+      "step": 116,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 28851.457934173966,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1832.928341576285
+      }
+    },
+    {
+      "step": 117,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1838.928341576285
+      }
+    },
+    {
+      "step": 118,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1844.928341576285
+      }
+    },
+    {
+      "step": 119,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1850.928341576285
+      }
+    },
+    {
+      "step": 120,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1856.928341576285
+      }
+    },
+    {
+      "step": 121,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1862.928341576285
+      }
+    },
+    {
+      "step": 122,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1868.928341576285
+      }
+    },
+    {
+      "step": 123,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1874.928341576285
+      }
+    },
+    {
+      "step": 124,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1880.928341576285
+      }
+    },
+    {
+      "step": 125,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1886.928341576285
+      }
+    },
+    {
+      "step": 126,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1892.928341576285
+      }
+    },
+    {
+      "step": 127,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1898.928341576285
+      }
+    },
+    {
+      "step": 128,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1329.5,
+        -2250.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 1904.928341576285
+      }
+    },
+    {
+      "step": 129,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 27976.457934230995,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2084.9283415223517
+      }
+    },
+    {
+      "step": 130,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2090.9283415223517
+      }
+    },
+    {
+      "step": 131,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2096.9283415223517
+      }
+    },
+    {
+      "step": 132,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2102.9283415223517
+      }
+    },
+    {
+      "step": 133,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2108.9283415223517
+      }
+    },
+    {
+      "step": 134,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2114.9283415223517
+      }
+    },
+    {
+      "step": 135,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2120.9283415223517
+      }
+    },
+    {
+      "step": 136,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2126.9283415223517
+      }
+    },
+    {
+      "step": 137,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2132.9283415223517
+      }
+    },
+    {
+      "step": 138,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2138.9283415223517
+      }
+    },
+    {
+      "step": 139,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2144.9283415223517
+      }
+    },
+    {
+      "step": 140,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2150.9283415223517
+      }
+    },
+    {
+      "step": 141,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1767.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2156.9283415223517
+      }
+    },
+    {
+      "step": 142,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 27101.45793450066,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2336.928341641624
+      }
+    },
+    {
+      "step": 143,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2342.928341641624
+      }
+    },
+    {
+      "step": 144,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2348.928341641624
+      }
+    },
+    {
+      "step": 145,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2354.928341641624
+      }
+    },
+    {
+      "step": 146,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2360.928341641624
+      }
+    },
+    {
+      "step": 147,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2366.928341641624
+      }
+    },
+    {
+      "step": 148,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2372.928341641624
+      }
+    },
+    {
+      "step": 149,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2378.928341641624
+      }
+    },
+    {
+      "step": 150,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2384.928341641624
+      }
+    },
+    {
+      "step": 151,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2390.928341641624
+      }
+    },
+    {
+      "step": 152,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2396.928341641624
+      }
+    },
+    {
+      "step": 153,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2402.928341641624
+      }
+    },
+    {
+      "step": 154,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        2204.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2408.928341641624
+      }
+    },
+    {
+      "step": 155,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 26226.4579339043,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2588.9283415876903
+      }
+    },
+    {
+      "step": 156,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2594.9283415876903
+      }
+    },
+    {
+      "step": 157,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2600.9283415876903
+      }
+    },
+    {
+      "step": 158,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2606.9283415876903
+      }
+    },
+    {
+      "step": 159,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2612.9283415876903
+      }
+    },
+    {
+      "step": 160,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2618.9283415876903
+      }
+    },
+    {
+      "step": 161,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2624.9283415876903
+      }
+    },
+    {
+      "step": 162,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2630.9283415876903
+      }
+    },
+    {
+      "step": 163,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2636.9283415876903
+      }
+    },
+    {
+      "step": 164,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2642.9283415876903
+      }
+    },
+    {
+      "step": 165,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2648.9283415876903
+      }
+    },
+    {
+      "step": 166,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2654.9283415876903
+      }
+    },
+    {
+      "step": 167,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        2642.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2660.9283415876903
+      }
+    },
+    {
+      "step": 168,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 25351.457934173966,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2840.928341533757
+      }
+    },
+    {
+      "step": 169,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2846.928341533757
+      }
+    },
+    {
+      "step": 170,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2852.928341533757
+      }
+    },
+    {
+      "step": 171,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2858.928341533757
+      }
+    },
+    {
+      "step": 172,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2864.928341533757
+      }
+    },
+    {
+      "step": 173,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2870.928341533757
+      }
+    },
+    {
+      "step": 174,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2876.928341533757
+      }
+    },
+    {
+      "step": 175,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2882.928341533757
+      }
+    },
+    {
+      "step": 176,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2888.928341533757
+      }
+    },
+    {
+      "step": 177,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2894.928341533757
+      }
+    },
+    {
+      "step": 178,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2900.928341533757
+      }
+    },
+    {
+      "step": 179,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2906.928341533757
+      }
+    },
+    {
+      "step": 180,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        2204.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 2912.928341533757
+      }
+    },
+    {
+      "step": 181,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 24476.457934443635,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3092.928341653029
+      }
+    },
+    {
+      "step": 182,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3098.928341653029
+      }
+    },
+    {
+      "step": 183,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3104.928341653029
+      }
+    },
+    {
+      "step": 184,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3110.928341653029
+      }
+    },
+    {
+      "step": 185,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3116.928341653029
+      }
+    },
+    {
+      "step": 186,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3122.928341653029
+      }
+    },
+    {
+      "step": 187,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3128.928341653029
+      }
+    },
+    {
+      "step": 188,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3134.928341653029
+      }
+    },
+    {
+      "step": 189,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3140.928341653029
+      }
+    },
+    {
+      "step": 190,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3146.928341653029
+      }
+    },
+    {
+      "step": 191,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3152.928341653029
+      }
+    },
+    {
+      "step": 192,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3158.928341653029
+      }
+    },
+    {
+      "step": 193,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1767.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3164.928341653029
+      }
+    },
+    {
+      "step": 194,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 23601.45793450066,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3344.928341772301
+      }
+    },
+    {
+      "step": 195,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3350.928341772301
+      }
+    },
+    {
+      "step": 196,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 156.48,
+        "virtual_time_s": 3356.928341772301
+      }
+    },
+    {
+      "step": 197,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3362.928341772301
+      }
+    },
+    {
+      "step": 198,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3368.928341772301
+      }
+    },
+    {
+      "step": 199,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3374.928341772301
+      }
+    },
+    {
+      "step": 200,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3380.928341772301
+      }
+    },
+    {
+      "step": 201,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3386.928341772301
+      }
+    },
+    {
+      "step": 202,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3392.928341772301
+      }
+    },
+    {
+      "step": 203,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3398.928341772301
+      }
+    },
+    {
+      "step": 204,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3404.928341772301
+      }
+    },
+    {
+      "step": 205,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3410.928341772301
+      }
+    },
+    {
+      "step": 206,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1329.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3416.928341772301
+      }
+    },
+    {
+      "step": 207,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 22833.816401114396,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3596.9283417183674
+      }
+    },
+    {
+      "step": 208,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3602.9283417183674
+      }
+    },
+    {
+      "step": 209,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 190.16,
+        "virtual_time_s": 3608.9283417183674
+      }
+    },
+    {
+      "step": 210,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3614.9283417183674
+      }
+    },
+    {
+      "step": 211,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3620.9283417183674
+      }
+    },
+    {
+      "step": 212,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3626.9283417183674
+      }
+    },
+    {
+      "step": 213,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3632.9283417183674
+      }
+    },
+    {
+      "step": 214,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3638.9283417183674
+      }
+    },
+    {
+      "step": 215,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3644.9283417183674
+      }
+    },
+    {
+      "step": 216,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3650.9283417183674
+      }
+    },
+    {
+      "step": 217,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3656.9283417183674
+      }
+    },
+    {
+      "step": 218,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1767.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3662.9283417183674
+      }
+    },
+    {
+      "step": 219,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 21969.9173515897,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3842.928341664434
+      }
+    },
+    {
+      "step": 220,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3848.928341664434
+      }
+    },
+    {
+      "step": 221,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3854.928341664434
+      }
+    },
+    {
+      "step": 222,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3860.928341664434
+      }
+    },
+    {
+      "step": 223,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3866.928341664434
+      }
+    },
+    {
+      "step": 224,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3872.928341664434
+      }
+    },
+    {
+      "step": 225,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3878.928341664434
+      }
+    },
+    {
+      "step": 226,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3884.928341664434
+      }
+    },
+    {
+      "step": 227,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3890.928341664434
+      }
+    },
+    {
+      "step": 228,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3896.928341664434
+      }
+    },
+    {
+      "step": 229,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1329.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 3902.928341664434
+      }
+    },
+    {
+      "step": 230,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 21094.917351859363,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4082.928341783706
+      }
+    },
+    {
+      "step": 231,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4088.928341783706
+      }
+    },
+    {
+      "step": 232,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4094.928341783706
+      }
+    },
+    {
+      "step": 233,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4100.928341783706
+      }
+    },
+    {
+      "step": 234,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4106.928341783706
+      }
+    },
+    {
+      "step": 235,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4112.928341783706
+      }
+    },
+    {
+      "step": 236,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4118.928341783706
+      }
+    },
+    {
+      "step": 237,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4124.928341783706
+      }
+    },
+    {
+      "step": 238,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4130.928341783706
+      }
+    },
+    {
+      "step": 239,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4136.928341783706
+      }
+    },
+    {
+      "step": 240,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        892.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4142.928341783706
+      }
+    },
+    {
+      "step": 241,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 20219.9173515897,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4322.928341783706
+      }
+    },
+    {
+      "step": 242,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4328.928341783706
+      }
+    },
+    {
+      "step": 243,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4334.928341783706
+      }
+    },
+    {
+      "step": 244,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4340.928341783706
+      }
+    },
+    {
+      "step": 245,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4346.928341783706
+      }
+    },
+    {
+      "step": 246,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4352.928341783706
+      }
+    },
+    {
+      "step": 247,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4358.928341783706
+      }
+    },
+    {
+      "step": 248,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4364.928341783706
+      }
+    },
+    {
+      "step": 249,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4370.928341783706
+      }
+    },
+    {
+      "step": 250,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4376.928341783706
+      }
+    },
+    {
+      "step": 251,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        17.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4382.928341783706
+      }
+    },
+    {
+      "step": 252,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        -75.116927,
+        -1618.638075
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 200.53078026621557,
+      "dispatch_decision": {
+        "route_length_m": 19344.917351393975,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": 5,
+        "changed": true,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4420.159818687786
+      }
+    },
+    {
+      "step": 253,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        -372.174796,
+        -1744.807152
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 139.40988360276125,
+      "dispatch_decision": {
+        "route_length_m": 19254.16853541127,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": 5,
+        "changed": true,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4489.708099385525
+      }
+    },
+    {
+      "step": 254,
+      "action": "measure",
+      "channel": 15,
+      "position": [
+        -537.861466,
+        -1706.145314
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 91.65585021279212,
+      "dispatch_decision": {
+        "route_length_m": 19248.389791551694,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": 5,
+        "changed": true,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 105.61,
+        "virtual_time_s": 4528.735623734633
+      }
+    },
+    {
+      "step": 255,
+      "action": "clear",
+      "channel": 15,
+      "position": [
+        -562.5,
+        -1612.5
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 24.366468125941573,
+      "dispatch_decision": {
+        "route_length_m": 19092.436113336338,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 6,
+        "selected_choice": 5,
+        "changed": true,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          15,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 4553.102091860575
+      }
+    },
+    {
+      "step": 256,
+      "action": "measure",
+      "channel": 16,
+      "position": [
+        -380.095041,
+        -1539.587803
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 162.31951087526954,
+      "dispatch_decision": {
+        "route_length_m": 18995.60377270663,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 5,
+        "selected_choice": 5,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 45.57,
+        "virtual_time_s": 4598.389625526692
+      }
+    },
+    {
+      "step": 257,
+      "action": "clear",
+      "channel": 16,
+      "position": [
+        -104.397169,
+        -1258.522245
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 100.23518725678835,
+      "dispatch_decision": {
+        "route_length_m": 18875.037185358597,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 5,
+        "selected_choice": 5,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11,
+          16
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 4682.131524035473
+      }
+    },
+    {
+      "step": 258,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        -143.089417,
+        -1134.90411
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 168.21346781935705,
+      "dispatch_decision": {
+        "route_length_m": 18481.327693324216,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4714.037919659852
+      }
+    },
+    {
+      "step": 259,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        -267.85643,
+        -1215.784564
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 139.10593242124895,
+      "dispatch_decision": {
+        "route_length_m": 18783.863762069348,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4748.775744309405
+      }
+    },
+    {
+      "step": 260,
+      "action": "measure",
+      "channel": 2,
+      "position": [
+        -467.02698,
+        -1167.789462
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 116.86678788733417,
+      "dispatch_decision": {
+        "route_length_m": 18750.3872423659,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 4794.750096191183
+      }
+    },
+    {
+      "step": 261,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -462.5,
+        -1162.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 101.39243608355778,
+      "dispatch_decision": {
+        "route_length_m": 18695.038252180697,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4799.14253227474
+      }
+    },
+    {
+      "step": 262,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -487.5,
+        -1162.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 87.0,
+      "dispatch_decision": {
+        "route_length_m": 18710.03604546508,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4807.14253227474
+      }
+    },
+    {
+      "step": 263,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -487.5,
+        -1187.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 69.0,
+      "dispatch_decision": {
+        "route_length_m": 18722.740002864084,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4815.14253227474
+      }
+    },
+    {
+      "step": 264,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -512.5,
+        -1187.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 76.25,
+      "dispatch_decision": {
+        "route_length_m": 18711.90961043178,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4823.14253227474
+      }
+    },
+    {
+      "step": 265,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -512.5,
+        -1212.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 77.25,
+      "dispatch_decision": {
+        "route_length_m": 18716.55210826874,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4831.14253227474
+      }
+    },
+    {
+      "step": 266,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -537.5,
+        -1212.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 75.5,
+      "dispatch_decision": {
+        "route_length_m": 18706.344248096168,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4839.14253227474
+      }
+    },
+    {
+      "step": 267,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -537.5,
+        -1237.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 67.0,
+      "dispatch_decision": {
+        "route_length_m": 18723.375218212077,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4847.14253227474
+      }
+    },
+    {
+      "step": 268,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -562.5,
+        -1237.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 62.5,
+      "dispatch_decision": {
+        "route_length_m": 18714.250071128947,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4855.14253227474
+      }
+    },
+    {
+      "step": 269,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -587.5,
+        -1237.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 72.42255279094266,
+      "dispatch_decision": {
+        "route_length_m": 18737.509048717366,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4863.14253227474
+      }
+    },
+    {
+      "step": 270,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -587.5,
+        -1262.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 67.17255279094266,
+      "dispatch_decision": {
+        "route_length_m": 18739.420870764923,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4871.14253227474
+      }
+    },
+    {
+      "step": 271,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -612.5,
+        -1262.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 51.0,
+      "dispatch_decision": {
+        "route_length_m": 18744.2326329474,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4879.14253227474
+      }
+    },
+    {
+      "step": 272,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -612.5,
+        -1287.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 62.5,
+      "dispatch_decision": {
+        "route_length_m": 18748.49976494538,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 4887.14253227474
+      }
+    },
+    {
+      "step": 273,
+      "action": "clear",
+      "channel": 2,
+      "position": [
+        -637.5,
+        -1287.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 50.5,
+      "dispatch_decision": {
+        "route_length_m": 18748.468478563987,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          2,
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 4897.14253227474
+      }
+    },
+    {
+      "step": 274,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 18534.435705602307,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5147.925864218734
+      }
+    },
+    {
+      "step": 275,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5153.925864218734
+      }
+    },
+    {
+      "step": 276,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5159.925864218734
+      }
+    },
+    {
+      "step": 277,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5165.925864218734
+      }
+    },
+    {
+      "step": 278,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5171.925864218734
+      }
+    },
+    {
+      "step": 279,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5177.925864218734
+      }
+    },
+    {
+      "step": 280,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5183.925864218734
+      }
+    },
+    {
+      "step": 281,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5189.925864218734
+      }
+    },
+    {
+      "step": 282,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5195.925864218734
+      }
+    },
+    {
+      "step": 283,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5201.925864218734
+      }
+    },
+    {
+      "step": 284,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        454.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5207.925864218734
+      }
+    },
+    {
+      "step": 285,
+      "action": "measure",
+      "channel": 5,
+      "position": [
+        646.156038,
+        -560.329105
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 304.9690219620292,
+      "dispatch_decision": {
+        "route_length_m": 17310.519045765745,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 1,
+        "changed": false,
+        "known_channels": [
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 65.66,
+        "virtual_time_s": 5265.757298720917
+      }
+    },
+    {
+      "step": 286,
+      "action": "clear",
+      "channel": 5,
+      "position": [
+        835.042748,
+        -143.225288
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 96.9586215750924,
+      "dispatch_decision": {
+        "route_length_m": 17058.01051873651,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 1,
+        "changed": false,
+        "known_channels": [
+          3,
+          5,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 5362.333230792743
+      }
+    },
+    {
+      "step": 287,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 16600.130858376207,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          3,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5403.4757833045205
+      }
+    },
+    {
+      "step": 288,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5409.4757833045205
+      }
+    },
+    {
+      "step": 289,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5415.4757833045205
+      }
+    },
+    {
+      "step": 290,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 144.09,
+        "virtual_time_s": 5421.4757833045205
+      }
+    },
+    {
+      "step": 291,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5427.4757833045205
+      }
+    },
+    {
+      "step": 292,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5433.4757833045205
+      }
+    },
+    {
+      "step": 293,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5439.4757833045205
+      }
+    },
+    {
+      "step": 294,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5445.4757833045205
+      }
+    },
+    {
+      "step": 295,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5451.4757833045205
+      }
+    },
+    {
+      "step": 296,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5457.4757833045205
+      }
+    },
+    {
+      "step": 297,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        892.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5463.4757833045205
+      }
+    },
+    {
+      "step": 298,
+      "action": "measure",
+      "channel": 9,
+      "position": [
+        871.544392,
+        222.605303
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 197.1451530893246,
+      "dispatch_decision": {
+        "route_length_m": 16818.239092204152,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          3,
+          8,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 113.04,
+        "virtual_time_s": 5509.605926032585
+      }
+    },
+    {
+      "step": 299,
+      "action": "clear",
+      "channel": 9,
+      "position": [
+        724.999758,
+        566.677773
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 79.79604123737178,
+      "dispatch_decision": {
+        "route_length_m": 16652.227806656385,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          3,
+          8,
+          9,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 5589.4019672021805
+      }
+    },
+    {
+      "step": 300,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 16278.247600940585,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          3,
+          8,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5664.396620542799
+      }
+    },
+    {
+      "step": 301,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5670.396620542799
+      }
+    },
+    {
+      "step": 302,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5676.396620542799
+      }
+    },
+    {
+      "step": 303,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5682.396620542799
+      }
+    },
+    {
+      "step": 304,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 100.46,
+        "virtual_time_s": 5688.396620542799
+      }
+    },
+    {
+      "step": 305,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5694.396620542799
+      }
+    },
+    {
+      "step": 306,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5700.396620542799
+      }
+    },
+    {
+      "step": 307,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 155.0,
+        "virtual_time_s": 5706.396620542799
+      }
+    },
+    {
+      "step": 308,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5712.396620542799
+      }
+    },
+    {
+      "step": 309,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        454.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5718.396620542799
+      }
+    },
+    {
+      "step": 310,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        526.909622,
+        902.717981
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 269.3939858246921,
+      "dispatch_decision": {
+        "route_length_m": 15987.870711980386,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          3,
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5752.7613310351835
+      }
+    },
+    {
+      "step": 311,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        581.683751,
+        1133.651122
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 295.8799907353332,
+      "dispatch_decision": {
+        "route_length_m": 15883.035210278615,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          3,
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 5805.229350087946
+      }
+    },
+    {
+      "step": 312,
+      "action": "measure",
+      "channel": 3,
+      "position": [
+        736.266754,
+        1113.571829
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 88.36648768071196,
+      "dispatch_decision": {
+        "route_length_m": 16142.234989670029,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 3,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          3,
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 198.18,
+        "virtual_time_s": 5841.405676249878
+      }
+    },
+    {
+      "step": 313,
+      "action": "clear",
+      "channel": 3,
+      "position": [
+        642.505577,
+        1083.61297
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 24.686230214931044,
+      "dispatch_decision": {
+        "route_length_m": 15877.390151585158,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          3,
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 5866.091906508622
+      }
+    },
+    {
+      "step": 314,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 15778.959000468178,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6026.7812577545465
+      }
+    },
+    {
+      "step": 315,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6032.7812577545465
+      }
+    },
+    {
+      "step": 316,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6038.7812577545465
+      }
+    },
+    {
+      "step": 317,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6044.7812577545465
+      }
+    },
+    {
+      "step": 318,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6050.7812577545465
+      }
+    },
+    {
+      "step": 319,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6056.7812577545465
+      }
+    },
+    {
+      "step": 320,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6062.7812577545465
+      }
+    },
+    {
+      "step": 321,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        17.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6068.7812577545465
+      }
+    },
+    {
+      "step": 322,
+      "action": "measure",
+      "channel": 13,
+      "position": [
+        128.254948,
+        1497.448998
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 87.06729049040726,
+      "dispatch_decision": {
+        "route_length_m": 15005.512244394165,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 340.16,
+        "virtual_time_s": 6098.501713234915
+      }
+    },
+    {
+      "step": 323,
+      "action": "clear",
+      "channel": 13,
+      "position": [
+        341.615222,
+        1420.833333
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 50.33985726247288,
+      "dispatch_decision": {
+        "route_length_m": 14913.257177548414,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          13,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 6148.841570598937
+      }
+    },
+    {
+      "step": 324,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 14686.557890895252,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6267.407873295162
+      }
+    },
+    {
+      "step": 325,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6273.407873295162
+      }
+    },
+    {
+      "step": 326,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6279.407873295162
+      }
+    },
+    {
+      "step": 327,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6285.407873295162
+      }
+    },
+    {
+      "step": 328,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6291.407873295162
+      }
+    },
+    {
+      "step": 329,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6297.407873295162
+      }
+    },
+    {
+      "step": 330,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6303.407873295162
+      }
+    },
+    {
+      "step": 331,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        892.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6309.407873295162
+      }
+    },
+    {
+      "step": 332,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 14123.72637716633,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6489.407873241229
+      }
+    },
+    {
+      "step": 333,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6495.407873241229
+      }
+    },
+    {
+      "step": 334,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6501.407873241229
+      }
+    },
+    {
+      "step": 335,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6507.407873241229
+      }
+    },
+    {
+      "step": 336,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6513.407873241229
+      }
+    },
+    {
+      "step": 337,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6519.407873241229
+      }
+    },
+    {
+      "step": 338,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6525.407873241229
+      }
+    },
+    {
+      "step": 339,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        1329.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6531.407873241229
+      }
+    },
+    {
+      "step": 340,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 13248.726377493023,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6711.407873241229
+      }
+    },
+    {
+      "step": 341,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6717.407873241229
+      }
+    },
+    {
+      "step": 342,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6723.407873241229
+      }
+    },
+    {
+      "step": 343,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6729.407873241229
+      }
+    },
+    {
+      "step": 344,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6735.407873241229
+      }
+    },
+    {
+      "step": 345,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6741.407873241229
+      }
+    },
+    {
+      "step": 346,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6747.407873241229
+      }
+    },
+    {
+      "step": 347,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        454.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6753.407873241229
+      }
+    },
+    {
+      "step": 348,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 12373.726377493022,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6933.407873241229
+      }
+    },
+    {
+      "step": 349,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6939.407873241229
+      }
+    },
+    {
+      "step": 350,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6945.407873241229
+      }
+    },
+    {
+      "step": 351,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6951.407873241229
+      }
+    },
+    {
+      "step": 352,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6957.407873241229
+      }
+    },
+    {
+      "step": 353,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6963.407873241229
+      }
+    },
+    {
+      "step": 354,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6969.407873241229
+      }
+    },
+    {
+      "step": 355,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -420.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 6975.407873241229
+      }
+    },
+    {
+      "step": 356,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 11498.726377493023,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7155.407873241229
+      }
+    },
+    {
+      "step": 357,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7161.407873241229
+      }
+    },
+    {
+      "step": 358,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7167.407873241229
+      }
+    },
+    {
+      "step": 359,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7173.407873241229
+      }
+    },
+    {
+      "step": 360,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7179.407873241229
+      }
+    },
+    {
+      "step": 361,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7185.407873241229
+      }
+    },
+    {
+      "step": 362,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7191.407873241229
+      }
+    },
+    {
+      "step": 363,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1295.5,
+        2296.316685
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7197.407873241229
+      }
+    },
+    {
+      "step": 364,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 10623.726377550049,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7377.407873187296
+      }
+    },
+    {
+      "step": 365,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7383.407873187296
+      }
+    },
+    {
+      "step": 366,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7389.407873187296
+      }
+    },
+    {
+      "step": 367,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7395.407873187296
+      }
+    },
+    {
+      "step": 368,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7401.407873187296
+      }
+    },
+    {
+      "step": 369,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7407.407873187296
+      }
+    },
+    {
+      "step": 370,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7413.407873187296
+      }
+    },
+    {
+      "step": 371,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1733.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7419.407873187296
+      }
+    },
+    {
+      "step": 372,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 9748.726377493023,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7599.407873187296
+      }
+    },
+    {
+      "step": 373,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7605.407873187296
+      }
+    },
+    {
+      "step": 374,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7611.407873187296
+      }
+    },
+    {
+      "step": 375,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7617.407873187296
+      }
+    },
+    {
+      "step": 376,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7623.407873187296
+      }
+    },
+    {
+      "step": 377,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7629.407873187296
+      }
+    },
+    {
+      "step": 378,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7635.407873187296
+      }
+    },
+    {
+      "step": 379,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -858.0,
+        1538.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7641.407873187296
+      }
+    },
+    {
+      "step": 380,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -551.167029,
+        1186.439876
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 180.08678175282185,
+      "dispatch_decision": {
+        "route_length_m": 8873.726377743225,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 7740.8153906693215
+      }
+    },
+    {
+      "step": 381,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -321.260422,
+        1206.598567
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 147.63418960799805,
+      "dispatch_decision": {
+        "route_length_m": 8551.105407129657,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 163.89,
+        "virtual_time_s": 7791.97312924698
+      }
+    },
+    {
+      "step": 382,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -416.617193,
+        1296.547253
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 85.00546473881441,
+      "dispatch_decision": {
+        "route_length_m": 8847.07514041881,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 172.57,
+        "virtual_time_s": 7823.190436422717
+      }
+    },
+    {
+      "step": 383,
+      "action": "measure",
+      "channel": 18,
+      "position": [
+        -648.41889,
+        1386.506904
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 91.30142418587934,
+      "dispatch_decision": {
+        "route_length_m": 8992.439065379816,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 193.3,
+        "virtual_time_s": 7877.919609164728
+      }
+    },
+    {
+      "step": 384,
+      "action": "clear",
+      "channel": 18,
+      "position": [
+        -812.5,
+        1345.833333
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 38.809436558220504,
+      "dispatch_decision": {
+        "route_length_m": 8807.682507259411,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 2,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          18
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 7916.729045738989
+      }
+    },
+    {
+      "step": 385,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 8638.635324194427,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          8,
+          11
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8060.272937262214
+      }
+    },
+    {
+      "step": 386,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8066.272937262214
+      }
+    },
+    {
+      "step": 387,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8072.272937262214
+      }
+    },
+    {
+      "step": 388,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8078.272937262214
+      }
+    },
+    {
+      "step": 389,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8084.272937262214
+      }
+    },
+    {
+      "step": 390,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 263.29,
+        "virtual_time_s": 8090.272937262214
+      }
+    },
+    {
+      "step": 391,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8096.272937262214
+      }
+    },
+    {
+      "step": 392,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -420.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8102.272937262214
+      }
+    },
+    {
+      "step": 393,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        50.755801,
+        701.974576
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 169.2923446346043,
+      "dispatch_decision": {
+        "route_length_m": 7965.508731597014,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          8,
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 310.38,
+        "virtual_time_s": 8203.832573079198
+      }
+    },
+    {
+      "step": 394,
+      "action": "measure",
+      "channel": 8,
+      "position": [
+        196.55336,
+        623.439132
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 66.20777543174327,
+      "dispatch_decision": {
+        "route_length_m": 7715.45094474442,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 2,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          8,
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 250.07999999999998,
+        "virtual_time_s": 8241.9534089229
+      }
+    },
+    {
+      "step": 395,
+      "action": "clear",
+      "channel": 8,
+      "position": [
+        187.5,
+        562.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 17.3215926506325,
+      "dispatch_decision": {
+        "route_length_m": 7556.604985212966,
+        "route_count": 5,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          8,
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 8259.275001573533
+      }
+    },
+    {
+      "step": 396,
+      "action": "measure",
+      "channel": 11,
+      "position": [
+        -329.554591,
+        -21.764413
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 280.67744167891874,
+      "dispatch_decision": {
+        "route_length_m": 7499.441656475699,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 270.68,
+        "virtual_time_s": 8421.31478552268
+      }
+    },
+    {
+      "step": 397,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -312.5,
+        -187.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 71.3221511144835,
+      "dispatch_decision": {
+        "route_length_m": 7023.101486280981,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 8457.636936637164
+      }
+    },
+    {
+      "step": 398,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -312.5,
+        -212.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 34.75,
+      "dispatch_decision": {
+        "route_length_m": 6858.731666233938,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 8465.636936637164
+      }
+    },
+    {
+      "step": 399,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -312.5,
+        -237.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 25.75,
+      "dispatch_decision": {
+        "route_length_m": 6834.17190058918,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 8473.636936637164
+      }
+    },
+    {
+      "step": 400,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -312.5,
+        -262.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 21.0,
+      "dispatch_decision": {
+        "route_length_m": 6810.020407358139,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_target_in_range",
+        "virtual_time_s": 8481.636936637164
+      }
+    },
+    {
+      "step": 401,
+      "action": "clear",
+      "channel": 11,
+      "position": [
+        -312.5,
+        -287.5
+      ],
+      "reason": "finite_cover",
+      "estimated_local_finish_s": 13.75,
+      "dispatch_decision": {
+        "route_length_m": 6806.517971633556,
+        "route_count": 4,
+        "plan": "free_insertion",
+        "baseline_choice": 1,
+        "selected_choice": 0,
+        "changed": true,
+        "known_channels": [
+          11,
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 8491.636936637164
+      }
+    },
+    {
+      "step": 402,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -564.016486,
+        -132.742077
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 152.43353997628637,
+      "dispatch_decision": {
+        "route_length_m": 6767.556469412679,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8556.699803977333
+      }
+    },
+    {
+      "step": 403,
+      "action": "measure",
+      "channel": 17,
+      "position": [
+        -578.909237,
+        52.912118
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 117.76302093720011,
+      "dispatch_decision": {
+        "route_length_m": 6772.426360365649,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 319.26,
+        "virtual_time_s": 8598.949917616594
+      }
+    },
+    {
+      "step": 404,
+      "action": "clear",
+      "channel": 17,
+      "position": [
+        -513.130559,
+        -3.536108
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 22.335785779718787,
+      "dispatch_decision": {
+        "route_length_m": 6557.567778837208,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          17
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 8621.285703376663
+      }
+    },
+    {
+      "step": 405,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8696.463473321477
+      }
+    },
+    {
+      "step": 406,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8702.463473321477
+      }
+    },
+    {
+      "step": 407,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 266.01,
+        "virtual_time_s": 8708.463473321477
+      }
+    },
+    {
+      "step": 408,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8714.463473321477
+      }
+    },
+    {
+      "step": 409,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8720.463473321477
+      }
+    },
+    {
+      "step": 410,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8726.463473321477
+      }
+    },
+    {
+      "step": 411,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -858.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8732.463473321477
+      }
+    },
+    {
+      "step": 412,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1295.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 6510.707697125903,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8912.463473267544
+      }
+    },
+    {
+      "step": 413,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1295.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8918.463473267544
+      }
+    },
+    {
+      "step": 414,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1295.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8924.463473267544
+      }
+    },
+    {
+      "step": 415,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1295.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8930.463473267544
+      }
+    },
+    {
+      "step": 416,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1295.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8936.463473267544
+      }
+    },
+    {
+      "step": 417,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1295.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 8942.463473267544
+      }
+    },
+    {
+      "step": 418,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1733.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 5635.707696856236,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9122.46347321361
+      }
+    },
+    {
+      "step": 419,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1733.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9128.46347321361
+      }
+    },
+    {
+      "step": 420,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1733.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9134.46347321361
+      }
+    },
+    {
+      "step": 421,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1733.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9140.46347321361
+      }
+    },
+    {
+      "step": 422,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1733.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9146.46347321361
+      }
+    },
+    {
+      "step": 423,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1733.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9152.46347321361
+      }
+    },
+    {
+      "step": 424,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -2170.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 4760.707697125902,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9332.463473159676
+      }
+    },
+    {
+      "step": 425,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -2170.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9338.463473159676
+      }
+    },
+    {
+      "step": 426,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -2170.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9344.463473159676
+      }
+    },
+    {
+      "step": 427,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -2170.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9350.463473159676
+      }
+    },
+    {
+      "step": 428,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -2170.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9356.463473159676
+      }
+    },
+    {
+      "step": 429,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -2170.5,
+        780.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9362.463473159676
+      }
+    },
+    {
+      "step": 430,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -2608.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 3885.707696856237,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9542.463473105741
+      }
+    },
+    {
+      "step": 431,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -2608.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9548.463473105741
+      }
+    },
+    {
+      "step": 432,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -2608.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9554.463473105741
+      }
+    },
+    {
+      "step": 433,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -2608.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9560.463473105741
+      }
+    },
+    {
+      "step": 434,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -2608.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9566.463473105741
+      }
+    },
+    {
+      "step": 435,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -2608.0,
+        23.0
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9572.463473105741
+      }
+    },
+    {
+      "step": 436,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -2170.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 3010.707697125903,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9752.463473051808
+      }
+    },
+    {
+      "step": 437,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -2170.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9758.463473051808
+      }
+    },
+    {
+      "step": 438,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -2170.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9764.463473051808
+      }
+    },
+    {
+      "step": 439,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -2170.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9770.463473051808
+      }
+    },
+    {
+      "step": 440,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -2170.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9776.463473051808
+      }
+    },
+    {
+      "step": 441,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -2170.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9782.463473051808
+      }
+    },
+    {
+      "step": 442,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1733.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 2135.7076973955695,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": null,
+        "selected_choice": null,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9962.46347317108
+      }
+    },
+    {
+      "step": 443,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1733.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9968.46347317108
+      }
+    },
+    {
+      "step": 444,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1733.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9974.46347317108
+      }
+    },
+    {
+      "step": 445,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1733.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9980.46347317108
+      }
+    },
+    {
+      "step": 446,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1733.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9986.46347317108
+      }
+    },
+    {
+      "step": 447,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1733.0,
+        -1492.544457
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 9992.46347317108
+      }
+    },
+    {
+      "step": 448,
+      "action": "measure",
+      "channel": 20,
+      "position": [
+        -1295.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "dispatch_decision": {
+        "route_length_m": 1260.7076974525962,
+        "route_count": 3,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": null,
+        "changed": true,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 10172.463473290352
+      }
+    },
+    {
+      "step": 449,
+      "action": "measure",
+      "channel": 1,
+      "position": [
+        -1295.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 10178.463473290352
+      }
+    },
+    {
+      "step": 450,
+      "action": "measure",
+      "channel": 6,
+      "position": [
+        -1295.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 10184.463473290352
+      }
+    },
+    {
+      "step": 451,
+      "action": "measure",
+      "channel": 10,
+      "position": [
+        -1295.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 10190.463473290352
+      }
+    },
+    {
+      "step": 452,
+      "action": "measure",
+      "channel": 14,
+      "position": [
+        -1295.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 10196.463473290352
+      }
+    },
+    {
+      "step": 453,
+      "action": "measure",
+      "channel": 19,
+      "position": [
+        -1295.5,
+        -734.772228
+      ],
+      "reason": "existence_batch",
+      "estimated_local_finish_s": 0.0,
+      "feedback": {
+        "accepted": true,
+        "kind": "no_signal",
+        "virtual_time_s": 10202.463473290352
+      }
+    },
+    {
+      "step": 454,
+      "action": "measure",
+      "channel": 7,
+      "position": [
+        -1172.98659,
+        -817.324284
+      ],
+      "reason": "posterior_localize",
+      "estimated_local_finish_s": 129.96565848138334,
+      "dispatch_decision": {
+        "route_length_m": 385.7076971800284,
+        "route_count": 2,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "direction",
+        "angle": 326.12,
+        "virtual_time_s": 10238.009625377996
+      }
+    },
+    {
+      "step": 455,
+      "action": "clear",
+      "channel": 7,
+      "position": [
+        -925.350497,
+        -983.051345
+      ],
+      "reason": "posterior_clear",
+      "estimated_local_finish_s": 64.59499752718762,
+      "dispatch_decision": {
+        "route_length_m": 297.9749876359381,
+        "route_count": 2,
+        "plan": "free_insertion",
+        "baseline_choice": 0,
+        "selected_choice": 0,
+        "changed": false,
+        "known_channels": [
+          7
+        ]
+      },
+      "feedback": {
+        "accepted": true,
+        "kind": "success",
+        "virtual_time_s": 10302.60462292108
+      }
+    }
+  ],
+  "truth": {
+    "seed": 1370009,
+    "source_count": 14,
+    "sources": {
+      "2": {
+        "position": [
+          -637.0356222888022,
+          -1298.7235133363688
+        ],
+        "radius": 1033.5454524744023,
+        "directional": true,
+        "theta": 3.621054927691413
+      },
+      "18": {
+        "position": [
+          -798.0145984228136,
+          1351.402565002358
+        ],
+        "radius": 1423.6270427623263,
+        "directional": true,
+        "theta": 1.0861531841744712
+      },
+      "12": {
+        "position": [
+          -462.3292593356165,
+          -1106.7853847865842
+        ],
+        "radius": 1172.287762423953,
+        "directional": true,
+        "theta": 2.740088306753274
+      },
+      "4": {
+        "position": [
+          -388.51567678687513,
+          -154.60838137842777
+        ],
+        "radius": 1068.9009689180066,
+        "directional": false,
+        "theta": 5.398507241851008
+      },
+      "16": {
+        "position": [
+          -109.89885850435805,
+          -1269.0201102063993
+        ],
+        "radius": 1427.5218966297432,
+        "directional": true,
+        "theta": 3.869944869397276
+      },
+      "13": {
+        "position": [
+          326.8411688572829,
+          1424.013381589693
+        ],
+        "radius": 1309.062525180762,
+        "directional": true,
+        "theta": 3.5772968301798995
+      },
+      "15": {
+        "position": [
+          -564.5856704962703,
+          -1615.4771399995768
+        ],
+        "radius": 1386.2635246744796,
+        "directional": true,
+        "theta": 3.8321166615404167
+      },
+      "17": {
+        "position": [
+          -506.09539806569666,
+          -9.496612057738407
+        ],
+        "radius": 1155.9134281659694,
+        "directional": true,
+        "theta": 2.5481033977031817
+      },
+      "11": {
+        "position": [
+          -322.6428232335273,
+          -282.3227087341311
+        ],
+        "radius": 1062.0331791734427,
+        "directional": true,
+        "theta": 3.1611599204987733
+      },
+      "7": {
+        "position": [
+          -940.7136381001974,
+          -977.870785010281
+        ],
+        "radius": 1187.7936629731662,
+        "directional": true,
+        "theta": 2.6773945017802907
+      },
+      "5": {
+        "position": [
+          837.0322612613036,
+          -143.37757815280108
+        ],
+        "radius": 1320.2273929766372,
+        "directional": true,
+        "theta": 5.25814586593606
+      },
+      "8": {
+        "position": [
+          172.21089891322708,
+          558.6938951736591
+        ],
+        "radius": 1101.253930645574,
+        "directional": true,
+        "theta": 0.8734624285305373
+      },
+      "9": {
+        "position": [
+          731.3979240553994,
+          548.679989796363
+        ],
+        "radius": 1458.1053932459254,
+        "directional": true,
+        "theta": 5.295432603782873
+      },
+      "3": {
+        "position": [
+          635.9182757729459,
+          1079.34244364479
+        ],
+        "radius": 1197.9058163341936,
+        "directional": true,
+        "theta": 5.904131435660736
+      }
+    }
+  },
+  "audit": {
+    "actions": 455,
+    "absent_certificates": 6,
+    "replay": true,
+    "continuous_hull_check": true
+  }
+}

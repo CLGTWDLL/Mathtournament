@@ -1,0 +1,287 @@
+{
+  "source": "自建中心场景；不是官方模拟器或正式演练结果",
+  "first_observation": {
+    "x": 0.0,
+    "y": 0.0,
+    "angle_deg": 0.0,
+    "error_deg": 1.0,
+    "target_radius": 1800.0,
+    "receive_min": 1000.0,
+    "receive_max": 1500.0,
+    "near_radius": 5.0,
+    "speed": 5.0,
+    "measure_time": 5.0
+  },
+  "method": "物理可行域 + 完整耗时/连续误差帕累托拐点",
+  "performance_hard_limits": null,
+  "physical_constraints": [
+    "目标圆域与首次±1度观测",
+    "接收半径、近距离阈值、速度和操作耗时",
+    "第二点对首次可行目标具有保证接收性"
+  ],
+  "selection_rule": "在耗时与连续直径的无量纲帕累托前沿上选最大下凹拐点",
+  "selection_settings": {
+    "cell_size": 12.5,
+    "safety_buffer": 1,
+    "nplan": 24,
+    "n_samples": 128,
+    "seed": 71100,
+    "horizon": 5
+  },
+  "second_point_local": [
+    450.0,
+    175.0
+  ],
+  "second_point_world": [
+    450.0,
+    175.0
+  ],
+  "selection_rollout_mean_s": 214.82610082122054,
+  "independent_rollout": {
+    "n": 512,
+    "mean_s": 209.0101813490698,
+    "se_s": 2.2804452051944604,
+    "ci95_s": [
+      204.54050874688866,
+      213.47985395125093
+    ],
+    "p90_s": 282.12487178287194
+  },
+  "action_time_s": 101.56603957913983,
+  "finite_worst_diameter_m": 371.89907515520645,
+  "continuous_diameter_upper_m": 779.5926016978897,
+  "physical_receive_feasible": true,
+  "pareto_options": [
+    {
+      "point": [
+        333.8771129698386,
+        115.44203046931551
+      ],
+      "selection_rollout_mean_s": 203.9744115659665,
+      "action_time_s": 75.65431026171093,
+      "finite_worst_diameter_m": 539.4885512803235,
+      "continuous_diameter_upper_m": 1770.514548755429
+    },
+    {
+      "point": [
+        350.0,
+        125.0
+      ],
+      "selection_rollout_mean_s": 205.67025750476333,
+      "action_time_s": 79.33034373659252,
+      "finite_worst_diameter_m": 507.6977237520357,
+      "continuous_diameter_upper_m": 1502.143923671345
+    },
+    {
+      "point": [
+        400.0,
+        125.0
+      ],
+      "selection_rollout_mean_s": 206.58667819362182,
+      "action_time_s": 88.81527307120105,
+      "finite_worst_diameter_m": 482.8160022462127,
+      "continuous_diameter_upper_m": 1394.8584374319291
+    },
+    {
+      "point": [
+        450.0,
+        125.0
+      ],
+      "selection_rollout_mean_s": 209.45522784182228,
+      "action_time_s": 98.40770846134703,
+      "finite_worst_diameter_m": 458.15964198326367,
+      "continuous_diameter_upper_m": 1292.4852358081432
+    },
+    {
+      "point": [
+        500.0,
+        125.0
+      ],
+      "selection_rollout_mean_s": 211.61466612267287,
+      "action_time_s": 108.07764064044152,
+      "finite_worst_diameter_m": 433.82182340475094,
+      "continuous_diameter_upper_m": 1194.857272967328
+    },
+    {
+      "point": [
+        300.0,
+        175.0
+      ],
+      "selection_rollout_mean_s": 211.93699940198113,
+      "action_time_s": 74.46221994724903,
+      "finite_worst_diameter_m": 434.79377935179457,
+      "continuous_diameter_upper_m": 957.6515942945241
+    },
+    {
+      "point": [
+        350.0,
+        175.0
+      ],
+      "selection_rollout_mean_s": 212.0440841662439,
+      "action_time_s": 83.26237921249263,
+      "finite_worst_diameter_m": 413.5680289896376,
+      "continuous_diameter_upper_m": 895.9972760214885
+    },
+    {
+      "point": [
+        400.0,
+        175.0
+      ],
+      "selection_rollout_mean_s": 213.25708823934735,
+      "action_time_s": 92.3212459828649,
+      "finite_worst_diameter_m": 392.59991335496045,
+      "continuous_diameter_upper_m": 836.6593089158771
+    },
+    {
+      "point": [
+        450.0,
+        175.0
+      ],
+      "selection_rollout_mean_s": 214.82610082122054,
+      "action_time_s": 101.56603957913983,
+      "finite_worst_diameter_m": 371.89907515520645,
+      "continuous_diameter_upper_m": 779.5926016978897
+    },
+    {
+      "point": [
+        500.0,
+        175.0
+      ],
+      "selection_rollout_mean_s": 217.41810387741347,
+      "action_time_s": 110.94810050208545,
+      "finite_worst_diameter_m": 351.4831090939789,
+      "continuous_diameter_upper_m": 724.754042927417
+    },
+    {
+      "point": [
+        300.0,
+        225.0
+      ],
+      "selection_rollout_mean_s": 220.69135734258663,
+      "action_time_s": 80.0,
+      "finite_worst_diameter_m": 368.72714606192795,
+      "continuous_diameter_upper_m": 685.2097659140654
+    },
+    {
+      "point": [
+        350.0,
+        225.0
+      ],
+      "selection_rollout_mean_s": 220.8769350842323,
+      "action_time_s": 88.21658488546619,
+      "finite_worst_diameter_m": 350.46648528765127,
+      "continuous_diameter_upper_m": 642.9198838148313
+    },
+    {
+      "point": [
+        400.0,
+        225.0
+      ],
+      "selection_rollout_mean_s": 222.25872822534674,
+      "action_time_s": 96.78779875342909,
+      "finite_worst_diameter_m": 332.36021151482385,
+      "continuous_diameter_upper_m": 602.0920398023313
+    },
+    {
+      "point": [
+        450.0,
+        225.0
+      ],
+      "selection_rollout_mean_s": 223.80188008929218,
+      "action_time_s": 105.62305898749054,
+      "finite_worst_diameter_m": 314.5913555388132,
+      "continuous_diameter_upper_m": 562.7081920007892
+    },
+    {
+      "point": [
+        500.0,
+        225.0
+      ],
+      "selection_rollout_mean_s": 226.2917714115427,
+      "action_time_s": 114.65856099730654,
+      "finite_worst_diameter_m": 297.1117270414869,
+      "continuous_diameter_upper_m": 524.7513943691719
+    },
+    {
+      "point": [
+        550.0,
+        225.0
+      ],
+      "selection_rollout_mean_s": 228.67051354268784,
+      "action_time_s": 123.84864324004714,
+      "finite_worst_diameter_m": 279.93196251456834,
+      "continuous_diameter_upper_m": 488.20594452850366
+    },
+    {
+      "point": [
+        400.0,
+        275.0
+      ],
+      "selection_rollout_mean_s": 232.289108485057,
+      "action_time_s": 102.08243919473799,
+      "finite_worst_diameter_m": 289.5552103518422,
+      "continuous_diameter_upper_m": 473.6606615522509
+    },
+    {
+      "point": [
+        450.0,
+        275.0
+      ],
+      "selection_rollout_mean_s": 233.73671622553724,
+      "action_time_s": 110.47511554864494,
+      "finite_worst_diameter_m": 274.0321526196208,
+      "continuous_diameter_upper_m": 443.67065547292844
+    },
+    {
+      "point": [
+        500.0,
+        275.0
+      ],
+      "selection_rollout_mean_s": 236.12980052055173,
+      "action_time_s": 119.12712210513328,
+      "finite_worst_diameter_m": 258.7970928061611,
+      "continuous_diameter_upper_m": 414.728117673387
+    },
+    {
+      "point": [
+        550.0,
+        275.0
+      ],
+      "selection_rollout_mean_s": 238.458584440709,
+      "action_time_s": 127.98373876248843,
+      "finite_worst_diameter_m": 243.85999094404912,
+      "continuous_diameter_upper_m": 386.82665177480163
+    },
+    {
+      "point": [
+        450.0,
+        325.0
+      ],
+      "selection_rollout_mean_s": 244.92161553364127,
+      "action_time_s": 116.01801655587258,
+      "finite_worst_diameter_m": 244.02488438937326,
+      "continuous_diameter_upper_m": 368.9155234789302
+    },
+    {
+      "point": [
+        500.0,
+        325.0
+      ],
+      "selection_rollout_mean_s": 246.78326087063127,
+      "action_time_s": 124.26860441876563,
+      "finite_worst_diameter_m": 230.55336974546464,
+      "continuous_diameter_upper_m": 345.57935633734456
+    },
+    {
+      "point": [
+        550.0,
+        325.0
+      ],
+      "selection_rollout_mean_s": 250.37604997702616,
+      "action_time_s": 132.76932339180638,
+      "finite_worst_diameter_m": 217.37240557209563,
+      "continuous_diameter_upper_m": 323.07038105751093
+    }
+  ],
+  "interpretation": "无D_lim、T_lim和lambda_risk；第三问可按剩余时间在前沿上动态切换。"
+}

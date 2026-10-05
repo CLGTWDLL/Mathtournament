@@ -1,0 +1,29 @@
+{
+  "source": "自建算例，非官方模拟器数据",
+  "first_observation": {
+    "x": 0.0,
+    "y": 0.0,
+    "angle_deg": 0.0,
+    "error_deg": 1.0,
+    "target_radius": 1800.0,
+    "receive_min": 1000.0,
+    "receive_max": 1500.0,
+    "near_radius": 5.0,
+    "speed": 5.0,
+    "measure_time": 5.0
+  },
+  "hybrid_settings": {
+    "cell_size": 12.5,
+    "safety_buffer": 1,
+    "nplan": 24,
+    "n_samples": 128,
+    "seed": 71100,
+    "horizon": 5
+  },
+  "validation_settings": {
+    "nplan": 24,
+    "n_samples": 512,
+    "seed": 44100,
+    "horizon": 5
+  }
+}

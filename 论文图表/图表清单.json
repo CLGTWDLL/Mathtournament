@@ -1,0 +1,189 @@
+{
+  "figures": [
+    {
+      "name": "question1/图1_交会定位",
+      "caption": "正交双点测向算例。检测点为(−700,0)、(0,−700)，误差半角为1°；右图放大左图原点附近的交集。区域直径D=34.57 m，最小包围圆半径R=17.28 m。红线为直径端点连线。",
+      "sources": [
+        "question1/数据/全部求解结果.json",
+        "question1/代码/examples.py"
+      ]
+    },
+    {
+      "name": "question1/图4_两次测向反例",
+      "caption": "两次测向形成的四边形反例。蓝线为最小包围圆，红色虚线为以最长对角线为直径的圆；D=34.904813 m，R=17.455065 m，R−D/2=2.66 mm。两圆非常接近，覆盖失败以数值判据确认，不能仅靠视觉判断。",
+      "sources": [
+        "question1/数据/全部求解结果.json",
+        "question1/代码/examples.py"
+      ]
+    },
+    {
+      "name": "question1/图3_三角形反例",
+      "caption": "可由三组合法测向约束构造的正三角形定位区域。为便于标注，图形作了平移；边长及区域直径均为40 m，最小包围圆半径为40/√3≈23.09 m，大于D/2=20 m。",
+      "sources": [
+        "question1/数据/全部求解结果.json",
+        "question1/代码/examples.py"
+      ]
+    },
+    {
+      "name": "question1/图5_递进定位",
+      "caption": "按同一算例依次加入第二、第三、第四次测向约束。新增观测可以缩小可行集，但不保证每次都严格减小直径；第三次观测后的直径保持不变。",
+      "sources": [
+        "question1/代码/examples.py",
+        "question1/代码/geometry.py"
+      ]
+    },
+    {
+      "name": "question1/图6_交会角敏感性",
+      "caption": "固定两检测点距目标均为700 m，真实读数误差为零，建模误差半角为1°。主图展示5°—175°范围的计算结果；砖红虚线框选出交会角30°—150°、区域直径30—100 m的局部，灰色虚线将该范围连接到上方放大图。放大图的横、纵坐标与主图含义及单位相同，仅改变显示尺度，并非另一组实验。局部图表明交会角接近90°时区域直径较小；该图为确定性几何实验。",
+      "sources": [
+        "question1/表格/表四_交会角敏感性数据.md"
+      ]
+    },
+    {
+      "name": "question1/图2_算法流程",
+      "caption": "第一问求解流程。先判断空集和无界情形，再对有界交集计算凸包、直径及最小包围圆；点与线段按退化凸集处理，不使用人为包围框代替无界判定。",
+      "sources": [
+        "question1/代码/geometry.py"
+      ]
+    },
+    {
+      "name": "question2/图2_时间与精度",
+      "caption": "三种代表方案在同一批512个独立样本上的复评结果。左侧误差棒表示任务耗时均值的95%置信区间；右侧为连续定位直径的几何上界，不是统计区间。砖红色为帕累托拐点。",
+      "sources": [
+        "question2/数据/独立复评结果.json"
+      ]
+    },
+    {
+      "name": "question2/图1_保证接收候选域",
+      "caption": "标准局部坐标下的保证接收候选域，由以O、A+、A−为圆心、半径999 m的三个圆盘交集构成；其中1 m为数值安全余量。A±相距约34.9 m，在本比例下接近。星号O为首次检测点，空心三角形A±为构造保证接收域的辅助圆心，不是信号源；三个实心圆点为第二次检测的代表候选位置，砖红点为拐点方案，浅蓝填充表示保证接收候选域。区域边界以网格显示，候选可行性仍由解析条件判定。",
+      "sources": [
+        "question2/数据/独立复评结果.json",
+        "question2/融合第二问说明.md"
+      ]
+    },
+    {
+      "name": "question3/图1_覆盖与反馈机制",
+      "caption": "左图为正文指定的原点加六个外围站的初始覆盖布局，外围站半径1250 m、间隔60°，接收圆半径1000 m。右图表示联合检测与反馈重排的逻辑；本图是算法机制示意，不是实际行进轨迹，也不主张必须绕一圈。",
+      "sources": [
+        "question3/第三问解答.md"
+      ]
+    },
+    {
+      "name": "question4/图2_骨架优化主要收益",
+      "caption": "三类场景各14组配对。左图空心圆为37站密集骨架，砖红方点为29站稀疏骨架；右图为配对节省均值和数据汇总中的95%区间，上方标注相对平均总时间的节省比例。42/42组稀疏方案更快，两臂各清除546/546个源。该实验同时改变骨架和认证网格；稀疏臂早于当前动态层，不能当作当前方案对同一基线的完整累计收益。",
+      "sources": [
+        "question4/表格/问题四结果汇总.json"
+      ]
+    },
+    {
+      "name": "question4/图3_耗时分解",
+      "caption": "同一批三类场景骨架对照的平均耗时分解。各柱总高等于移动、检测、切频、光学定位及清除时间之和；小分量不在柱内堆叠标注，精确数值见配套表格。",
+      "sources": [
+        "question4/数据/实验结果/sparse_backbone/summaries.json"
+      ]
+    },
+    {
+      "name": "question4/图4_动态层增量收益",
+      "caption": "40个同种子配对的动态层增量收益，每点为一组配对，同源数内纵向错开以便辨认。平均6328.33→6183.91 s，节省144.42 s（2.28%），95%区间[123.03,165.81] s；35组更快，5组相同且均为16源。动态方案默认配置关闭几何层，更新说明记录该变化不改变这40组动作与任务时间。该批实验与图2的骨架对照不是同一批种子。",
+      "sources": [
+        "question4/数据/对比40次/20260913-145508-pair40/comparison.json",
+        "question4/更新说明.md"
+      ]
+    },
+    {
+      "name": "question4/图1_当前骨架",
+      "caption": "左图蓝色圆点为规划骨架站点、蓝线为预设访问路线；右图蓝色圆点为动作执行位置、蓝线为实际行进路线，蓝色箭头表示行进方向，这些圆点不是源位置。左：当前默认初始开放骨架，原点后29站，长17505.97 m。右：种子1480000动态方案逐动作位置连接得到的实际轨迹，行进22777.62 m，清除14/14个源，任务时间6466.52 s；砖红叉为成功清除位置。星号为起点，空心方形为终点，虚线圆为目标区域。右图来自开启几何层的配对记录；更新说明确认关闭该层后该批动作与任务时间保持一致。该例用于说明执行形态，性能结论使用完整配对样本。",
+      "sources": [
+        "question4/代码/动态骨架_v1/backbone_final.json",
+        "question4/数据/对比40次/20260913-145508-pair40/dynamic/seed-1480000.json",
+        "question4/更新说明.md"
+      ]
+    },
+    {
+      "name": "question3/图2_四十次运行结果",
+      "caption": "新增40次本地均匀场景运行，版本ede0b2c65ab649f3。每点为一次运行，同源数内纵向错开。40/40次全部完成，共清除515/515个源。平均任务时间3187.65 s，中位数3164.49 s；每例T/K的算术平均为252.47 s，全部时间除以全部清除数为247.58 s。该批仅包含联合重排策略，不能独立计算相对其他策略的提速。",
+      "sources": [
+        "question3/数据/本地40次运行/batch-20260913-183116-6270521a/batch_summary.json"
+      ]
+    },
+    {
+      "name": "question3/图3_实际轨迹与反馈",
+      "caption": "按任务时间距样本中位数最近的规则选择种子1200018，若并列取时间较短者，非择优展示。该例任务时间3172.30 s，清除14/14个源。左图蓝色圆点为动作执行位置、蓝线为行进轨迹（蓝色箭头表示行进方向），并非源的位置；砖红叉为成功清除位置，空心菱形为接受的联合检测点，砖红箭头从原站指向联合点；星号为出发点，空心方形为终点。右图按逐动作反馈画阶梯曲线，已排除频道数与已清除源数含义不同。",
+      "sources": [
+        "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-19-seed-1200018.json"
+      ]
+    },
+    {
+      "name": "question3/图4_平均耗时分解",
+      "caption": "新增40次运行的平均任务耗时分解。光学定位时间包含失败尝试，激光清除仅按成功清除计时；五项未舍入均值之和等于3187.65 s。墙钟计算时间不属于题目任务时间，未混入本图。",
+      "sources": [
+        "question3/数据/本地40次运行/batch-20260913-183116-6270521a/batch_summary.json"
+      ]
+    }
+  ],
+  "input_sha256": {
+    "question1/数据/全部求解结果.json": "d39619c9cb25b28cec57ed5e9111c99498bd23d81c74329021d74bcbbaa0d10b",
+    "question1/代码/examples.py": "cd8d409d68596defde099e368a8f1cb9b21cc646a1febcb371a7b0b5637a7cfd",
+    "question1/代码/geometry.py": "941c31aed5f492f4552d44143d39d76904d768b94c34b6dbd0cf57f4331d5484",
+    "question1/表格/表四_交会角敏感性数据.md": "9cdc184cf657734aac8e3368b473084a339709417ae83d2f76f38e5741faf937",
+    "question2/数据/独立复评结果.json": "f5c6175115aa17038191858444373bd554ba10553f5550b62b005cf93b3e770f",
+    "question2/融合第二问说明.md": "b9eb4f89c714f1ec305c12012b8d745a5de840ac89e43a2d902c410fb4143790",
+    "question3/第三问解答.md": "683583101717d22a7703136137e4f0bccfa8d60a1166801020eac31035e5c2ca",
+    "question4/表格/问题四结果汇总.json": "f82c5d306544173e31b5657e12057ac1dbd2322eaeba786a4c444a7b5d359f2c",
+    "question4/数据/实验结果/sparse_backbone/summaries.json": "e6d7755fc9543ad6f179da666b26d069daa607ea26993af5d90a816318f1be61",
+    "question4/数据/对比40次/20260913-145508-pair40/comparison.json": "b153541ea5e049d692cbdbd4c0aa645d3b56a6b2d314458a38824f324f1e3ef3",
+    "question4/更新说明.md": "f3b846912a7dd46a87d046f15dd15355f831822b2147297ed8a751d725fb5f0a",
+    "question4/代码/动态骨架_v1/backbone_final.json": "2c457449e7ea43049dd0f660794c5779f46af0bdbc84ec04c6c5eb0069f93e45",
+    "question4/数据/对比40次/20260913-145508-pair40/dynamic/seed-1480000.json": "0e42c5a3f27b3ba07cd777cb63fff4209b8fb8ed112ae106cde7ceb706507593",
+    "question4/数据/对比40次/20260913-145508-pair40/cpu_ab_sequential.json": "109774d4903e7bb3ac59b325dcb79dcdaa0e3a8022e9ee1534afe2540fda85ae",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/batch_summary.json": "4d53b2dfda72d8be633fa0751aaa548550ce875f828447281fbb5c6a61579413",
+    "question3/代码/q3_joint_replan.py": "ba9e8226fa40723d89f993c7bb09e12882aa21f3b78c0ea483fdf5af9890c40e",
+    "question3/代码/q3_joint_site.py": "9a6728a1ae8df2ce4c8d29844079ecec56a508853ddb4d1d7d67b4932d9f9db5",
+    "question3/代码/q3_backbone.py": "db5c6a0c64a82da2c81d24bffa456ad0a01f37d5ed820d0c9256662a7f48e22c",
+    "question3/代码/q3_policy.py": "c2f55a2b2c174f0ac170ccbac7a003a023ba49351e61393f97de77b74a57e2bf",
+    "question3/代码/q3_belief.py": "2e21803024081d0a14d5423c32cb67d6342fc8fd8b1969907af50d3fc2b5d376",
+    "question3/代码/q3_environment.py": "7b620bfd7679c358edb18d1bd0090c6377b8a898e8fe4e665c26e2edd337967a",
+    "question3/代码/run_q3_autonomous.py": "26d374cad77157f905ff7857c802b2745fa9bba90461f023fe0873ef17b37c09",
+    "question3/代码/run_q3_simulator_40.py": "c66ab17df8946f733739ec8160c25ec870164fb1a6d90a201ce20f15f6dcbbbf",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-01-seed-1200000.json": "b222c0f5dd3a0bb06f2e902ef427019b5227412604a4aa19961887919457d229",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-02-seed-1200001.json": "b3c1768e4104248bc3eb69f87d437cb21d3a17c3e2b838d33301993de4ef9475",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-03-seed-1200002.json": "7592df240afb6d556f74666bac66e4d39c96c22a0d0f37167809c690e8db8219",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-04-seed-1200003.json": "2b13c308a76157aa743e95cb2b25e2c9347b0577f4002d2c8410e1c60751ce7a",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-05-seed-1200004.json": "9a894ef4ab318eafeb3b3b5760e99c45031c6e5ec24a1aeaef06a81d106cd14d",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-06-seed-1200005.json": "c7f7f731ccf1e66a504a4cb410b914e2dedd1c94d73f7f2ed34b5b866e9b6803",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-07-seed-1200006.json": "87062e536b0e995d6d8f2b0982b179b3710a873b5aef83e7f6f9c71e162147d0",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-08-seed-1200007.json": "ee9937d9da94e02bc667d59f4aa4f56a0961847671cf0692debf6b12d9d0d4e4",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-09-seed-1200008.json": "bd1f6bb21b959079ceec80b9533a1c232d97fb5012e26ee2eb8050f12240e668",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-10-seed-1200009.json": "a0e55ac8117501f3be150256d5c4a48836cd17b2ba908b500c2f2b3079a7a5e4",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-11-seed-1200010.json": "5149c116db077156ad19a2d64a5c02a8d29f6638accb75407d7ffadbeafff13b",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-12-seed-1200011.json": "1666c5362177718992e2b1c33e66ed36069a6773d6e577d7f859a0bc508be604",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-13-seed-1200012.json": "c9929c11ec8769ba8aea287caa82a982b8a3ead2ff449edf5911aea03cb04dee",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-14-seed-1200013.json": "c27ef1e0eb481fc7ef0f2b87273af43ae8b3d5d43b1017b474ee4eafd731542a",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-15-seed-1200014.json": "19db4b1439588acaa752f0cddc88fcb2b364ff4f18f1213176fdd580b1a9f6ca",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-16-seed-1200015.json": "cc05402b72937d370918303d7e1794d3b299487f833c2faa29b7dc5a138401c8",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-17-seed-1200016.json": "2d16094e02caa3da3829166cbf2cf5940f77a646b4a06a5e0886bd6a3c67e399",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-18-seed-1200017.json": "e6f0ac6e9adf4e1845cc2d9e4b964d7c1358c03d0de0bf037e1615acf2c5b6de",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-19-seed-1200018.json": "11b6746e6cef8c092301d9b375eb4b29bbf605d3545377c9b6a42650027a76ea",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-20-seed-1200019.json": "a852ff13f056cd16dc5e783ce39fd4e3192dccc28305779ebbfa020e095e6f0f",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-21-seed-1200020.json": "9275bb8af3a9a2ef2cc4195fd2ffaf0219d916444303f7fe18ba7fc78f62ff9f",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-22-seed-1200021.json": "2a20a5cfea1c277473333cb591b516edd1acc6a1f9d5336b3af59ffd415dcfc7",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-23-seed-1200022.json": "47b3f58872e907a097ab215bd6f6d789203163aa8643e2c2ed684f37a206a47c",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-24-seed-1200023.json": "54937cc8b4604060b1c2a59ee89ef5483e4da1a5422b34205c9db69a9d8a81f8",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-25-seed-1200024.json": "ba61572405c4febe6463f9321676b42d146061c6115d33069f37167d85735006",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-26-seed-1200025.json": "155668fd2fc423fb027fa0fa877abeebb557161c54137f4e5dfd98becefc1e3e",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-27-seed-1200026.json": "aed9c619a1bcc8ac66004aa62167dd7c98fe76890cbd5ac2425cf53082cd80d6",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-28-seed-1200027.json": "e1c726253df2fe0958255d79bffbf7d42490ec2c19eb8e2f903a039f4af747dc",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-29-seed-1200028.json": "718d20fb83b8daa5681b6d4176bed7cbb88f97091a147acc21a150392eb14fae",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-30-seed-1200029.json": "240982a2b27bafcf0eaef9cce15c262ac636aebd415860edc176b73d60a95770",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-31-seed-1200035.json": "e7af217b2f190f5e3e51826561edc403a74d28e192d25152a1f20e8e652faa26",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-32-seed-1200038.json": "e2be3f56dd204e6c1d9b4dad634278e80f5ad673168554b9208ce9d7d320b7fb",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-33-seed-1200041.json": "d6261a8e7d38a8fd70a98f041c110d1838925868b41097fc2f6d590291196df9",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-34-seed-1200042.json": "e19469ccd233965472a426c4abe8d4a359d5c793590eeb85d5ae5a40bc1afd04",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-35-seed-1200048.json": "451efbf44e88bbde55dbc4367f337b85a5a5ed026848f99ef862554c6a6db314",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-36-seed-1200056.json": "01a7f3ab356eac8116268f06909089627bbc4ea6da36a16fc426bd5cd0c1b13c",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-37-seed-1200058.json": "bcb42abba83bac501da3f6c93a0dc5aedb8dd2a44ad382afd3d089d640161770",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-38-seed-1200064.json": "1076e71ca43f89bd74ee8198071133a749ac3e817d737fd4908acf1e180e12e3",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-39-seed-1200069.json": "bb0a6d97591b74af97cbe0171d90dce7b1c4fa122ff3c4961db9cfb188388326",
+    "question3/数据/本地40次运行/batch-20260913-183116-6270521a/run-40-seed-1200077.json": "92204bbd2b12e28391ec420fd017bccf42c4805beeed047407118fa6cc67e0dc"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "description": "第四问旧算法（基础控制器）与新默认算法在同一进程内串行 A/B 的 CPU 时间",
+  "execution": "local_offline_environment",
+  "thread_limit": 1,
+  "arms": [
+    "q4_base_policy.Policy()（旧：29 站静态骨架）",
+    "q4_dynamic_policy.Policy()（新默认：后验提前停止，几何层关闭）"
+  ],
+  "planner_seed": 9411,
+  "particles": 32,
+  "seeds": [
+    1480014,
+    1480000,
+    1480002,
+    1480005
+  ],
+  "rows": [
+    {
+      "seed": 1480014,
+      "source_count": 10,
+      "base_cpu_s": 6.811,
+      "new_cpu_s": 6.863,
+      "cpu_delta_s": 0.053,
+      "base_virtual_s": 6411.24,
+      "new_virtual_s": 6212.98,
+      "base_cleared": 10,
+      "new_cleared": 10
+    },
+    {
+      "seed": 1480000,
+      "source_count": 14,
+      "base_cpu_s": 12.602,
+      "new_cpu_s": 12.756,
+      "cpu_delta_s": 0.154,
+      "base_virtual_s": 6547.74,
+      "new_virtual_s": 6466.52,
+      "base_cleared": 14,
+      "new_cleared": 14
+    },
+    {
+      "seed": 1480002,
+      "source_count": 16,
+      "base_cpu_s": 18.099,
+      "new_cpu_s": 18.583,
+      "cpu_delta_s": 0.484,
+      "base_virtual_s": 7246.45,
+      "new_virtual_s": 7246.45,
+      "base_cleared": 16,
+      "new_cleared": 16
+    },
+    {
+      "seed": 1480005,
+      "source_count": 15,
+      "base_cpu_s": 14.382,
+      "new_cpu_s": 14.521,
+      "cpu_delta_s": 0.139,
+      "base_virtual_s": 5975.24,
+      "new_virtual_s": 5806.99,
+      "base_cleared": 15,
+      "new_cleared": 15
+    }
+  ],
+  "mean_base_cpu_s": 12.973,
+  "mean_new_cpu_s": 13.181,
+  "mean_cpu_delta_s": 0.207,
+  "all_sources_cleared": true
+}
